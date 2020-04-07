@@ -43,10 +43,10 @@ import Program from '../components/Program';
 import Workout from '../components/Workout';
 import Trainer from '../components/Trainer';
 import Group from '../components/Group';
-import Abs from '../components/Abs';
+import Abs from '../components/abs/Abs';
 import Programs from '../components/Programs';
 import Suggestion from '../components/Suggestion';
-import Directory from '../components/Directory';
+import Directory from '../components/directory/Directory';
 import Userdirectory from '../components/Userdirectory';
 const BottomTabNavigator = createBottomTabNavigator({
 
