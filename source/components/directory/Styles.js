@@ -79,4 +79,4 @@ const styles =StyleSheet.create({
         fontWeight: 'bold',
       },
 })
-export default styles
+export default styles;

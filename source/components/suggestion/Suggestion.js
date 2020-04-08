@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native';
+import styles from './Styles';
 export class Suggestion extends Component {
   constructor(props) {
     super(props);
@@ -38,7 +39,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -60,7 +61,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -82,7 +83,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -104,7 +105,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -126,7 +127,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -148,7 +149,7 @@ export class Suggestion extends Component {
                   <Image
                     style={styles.container}
                     resizeMode="stretch"
-                    source={require('../assets/back.jpeg')}
+                    source={require('../../assets/back.jpeg')}
                   />
                 </View>
                 <View style={styles.usertext}>
@@ -174,7 +175,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -201,19 +202,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -226,7 +227,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -253,19 +254,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -278,7 +279,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -305,19 +306,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -330,7 +331,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -357,19 +358,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -382,7 +383,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -409,19 +410,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -434,7 +435,7 @@ export class Suggestion extends Component {
                     <Image
                       style={styles.container}
                       resizeMode="stretch"
-                      source={require('../assets/back.jpeg')}
+                      source={require('../../assets/back.jpeg')}
                     />
                   </View>
                   <View style={styles.usertext}>
@@ -461,19 +462,19 @@ export class Suggestion extends Component {
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.jpeg')}
+                      source={require('../../assets/arms3.jpeg')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/arms3.png')}
+                      source={require('../../assets/arms3.png')}
                     />
                   </View>
                   <View style={styles.template}>
                     <Image
                       style={styles.templateimg}
-                      source={require('../assets/chest1.jpeg')}
+                      source={require('../../assets/chest1.jpeg')}
                     />
                   </View>
                 </View>
@@ -485,75 +486,6 @@ export class Suggestion extends Component {
     );
   }
 }
-const styles = StyleSheet.create({
-  screenlayout: {
-    paddingLeft: 20,
-    paddingRight: 20,
-    marginTop: 30,
-  },
-  trainerhearder: {
-    paddingLeft: 5,
-    paddingTop: 5,
-    fontSize: 20,
-  },
-  followsuggestiontxt: {
-    borderBottomWidth: 2,
-    borderBottomColor: '#000',
-  },
-  followsuggestionheader: {
-    marginTop: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
-  },
-  imagecontainer: {
-    width: 60,
-    height: 60,
-    borderRadius: 60 / 2,
-    overflow: 'hidden',
-    borderWidth: 3,
-    borderColor: 'white',
-  },
-  userrow: {
-    marginTop: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  usertext: {
-    marginTop: 10,
-    marginLeft: 5,
-  },
-  followcontainer: {},
-  SubmitButtonStyle: {
-    flexDirection: 'row',
-    // marginTop:10,
-    paddingTop: 5,
-    paddingBottom: 10,
-    marginTop: 10,
-    marginLeft: 40,
-    // marginRight: 40,
-    backgroundColor: 'white',
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: '#FFF',
-    elevation: 8,
-  },
-  TextStyle: {
-    textAlign: 'center',
-    color: '#000',
-    paddingHorizontal: 2,
-    fontWeight: 'bold',
-  },
-  template: {
-    width: 120,
-    justifyContent: 'center',
-    marginRight: 8,
-  },
-  templateimg: {
-    marginTop: 10,
-    height: 80,
-    width: 118,
-    borderRadius: 5,
-  },
-});
+
 
 export default Suggestion;

@@ -123,7 +123,7 @@ import * as React from 'react';
 import { Button, View, Text,StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Regform from './source/components/reg';
+import Regform from './source/components/registration/reg';
 import {AppContainer} from './source/navigation/index';
 export default class App extends React.Component {
   render(){
