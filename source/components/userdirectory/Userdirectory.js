@@ -80,7 +80,6 @@ export class Userdirectory extends Component {
                 borderColor: '#FFF',
                 borderWidth: 2,
                 paddingLeft: 10,
-                paddingRight: 10,
                 flex: 1,
                 // height:300
               }}>
@@ -145,74 +144,74 @@ export class Userdirectory extends Component {
                 </View>
               </View>
             </View>
-          ) : <View>
-            <View style={{marginVertical:10}}>
-              <View style={styles.workoutcard}>
-                <Text>MY Workout 1</Text>
-                <Text>SUSCRIBE</Text>
+            
+          ) : (
+            <View>
+              <View style={{marginVertical: 10}}>
+                <View style={styles.workoutcard}>
+                  <Text>MY Workout 1</Text>
+                  <Text>SUSCRIBE</Text>
+                </View>
+                <View style={styles.imagerow}>
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio4.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio2.jpeg')}
+                  />
+                </View>
               </View>
-              <View style={styles.imagerow}>
-              <Image
-                style={styles.eachimagerow}
-                source={require('../../assets/cardio.jpeg')}
-              />
-              <Image
-                style={styles.eachimagerow}
-                source={require('../../assets/cardio1.jpeg')}
-              />
-              <Image
-                style={styles.eachimagerow}
-                source={require('../../assets/cardio2.jpeg')}
-              />
+              <View style={{marginVertical: 10}}>
+                <View style={styles.workoutcard1}>
+                  <Text>MY Workout 2</Text>
+                  <Text>SUSCRIBE</Text>
+                </View>
+                <View style={styles.imagerow}>
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio4.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio2.jpeg')}
+                  />
+                </View>
+              </View>
+              <View style={{marginVertical: 10}}>
+                <View style={styles.workoutcard1}>
+                  <Text>MY Workout 3</Text>
+                  <Text>SUSCRIBE</Text>
+                </View>
+                <View style={styles.imagerow}>
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio4.jpeg')}
+                  />
+                  <Image
+                    style={styles.eachimagerow}
+                    source={require('../../assets/cardio2.jpeg')}
+                  />
+                </View>
               </View>
             </View>
-            <View style={{marginVertical:10}}>
-            <View style={styles.workoutcard1}>
-              <Text>MY Workout 1</Text>
-              <Text>SUSCRIBE</Text>
-            </View>
-            <View style={styles.imagerow}>
-            <Image
-              style={styles.eachimagerow}
-              source={require('../../assets/cardio.jpeg')}
-            />
-            <Image
-              style={styles.eachimagerow}
-              source={require('../../assets/cardio1.jpeg')}
-            />
-            <Image
-              style={styles.eachimagerow}
-              source={require('../../assets/cardio2.jpeg')}
-            />
-            </View>
-          </View>
-          <View style={{marginVertical:10}}>
-          <View style={styles.workoutcard1}>
-            <Text>MY Workout 1</Text>
-            <Text>SUSCRIBE</Text>
-          </View>
-          <View style={styles.imagerow}>
-          <Image
-            style={styles.eachimagerow}
-            source={require('../../assets/cardio.jpeg')}
-          />
-          <Image
-            style={styles.eachimagerow}
-            source={require('../../assets/cardio1.jpeg')}
-          />
-          <Image
-            style={styles.eachimagerow}
-            source={require('../../assets/cardio2.jpeg')}
-          />
-          </View>
-        </View>
-        </View>
-          }
+          )}
         </View>
         <View>
-          <View style={styles.postcontainer}>
-         
-          </View>
+          <View style={styles.postcontainer}></View>
         </View>
       </View>
     );

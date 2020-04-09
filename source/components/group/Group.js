@@ -101,7 +101,7 @@ export class Group extends Component {
         <View
           style={{
             height: 300,
-            width: 370,
+            width: "100%",
             backgroundColor: '#FFFFFF',
             borderColor: '#FFF',
             borderWidth: 2,

@@ -50,20 +50,21 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       // width:320,
       borderRadius: 2,
-      width: 370,
+    width: "100%",
       height: 140,
       // marginHorizontal:100
     },
   
     template: {
-      width: 185,
+      width: "100%",
+      flex:1,
       justifyContent: 'center',
       marginRight: 8,
     },
     templateimg: {
       marginTop: 10,
       height: 80,
-      width: 175,
+      width: "100%",
       borderRadius: 5,
     },
     templatetxt: {

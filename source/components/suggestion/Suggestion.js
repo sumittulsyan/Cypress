@@ -168,12 +168,13 @@ export class Suggestion extends Component {
           </View>
         ) : (
           <View>
+            <View><Text>hell</Text></View>
             <View>
               <View style={styles.userrow}>
                 <View style={{flexDirection: 'row'}}>
                   <View style={styles.imagecontainer}>
                     <Image
-                      style={styles.container}
+                      style={{width:"100%"}}
                       resizeMode="stretch"
                       source={require('../../assets/back.jpeg')}
                     />

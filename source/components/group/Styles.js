@@ -87,15 +87,16 @@ const styles = StyleSheet.create({
     },
   
     template: {
+        flex:1,
       flexDirection: 'column',
-      width: 120,
+      width: "100%",
       justifyContent: 'center',
       marginRight: 8,
     },
     templateimg: {
       marginTop: 10,
       height: 80,
-      width: 110,
+      width: "100%",
       borderRadius: 5,
     },
     templatetxt: {

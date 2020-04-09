@@ -33,7 +33,7 @@ export class Program extends Component {
           <Icon style={styles.searchIcon} name="search" size={16} />
           <TextInput style={styles.textinput} placeholder="Search"></TextInput>
         </View>
-        <View>
+        <View style={{}}>
           <Text>New Release</Text>
           <TouchableOpacity
             onPress={() => this.props.navigation.navigate('Programs')}>
@@ -44,7 +44,7 @@ export class Program extends Component {
             />
           </TouchableOpacity>
         </View>
-        <View>
+        <View style={{}}>
           <View>
             <TouchableOpacity
               style={styles.SubmitButtonStyle1}

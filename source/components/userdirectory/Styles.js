@@ -78,19 +78,19 @@ const styles = StyleSheet.create({
   },
   workoutcard1: {flexDirection: 'row', 
     justifyContent: 'space-between'
-    ,marginTop:100,
+    ,marginTop: 10,
     marginBottom:10
   },
   imagerow:{
-      flex:1,
       flexDirection:"row"
   },
   eachimagerow:{
-      height: 150,
+      height: 100,
       width: '100%',
       justifyContent: 'center',
-      flex:1,
-      marginRight:10
+       flex:1,
+       marginHorizontal:5
+      //marginRight:10
       // height:Dimensions.get('screen').height
     }
   

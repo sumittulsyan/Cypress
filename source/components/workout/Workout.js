@@ -33,7 +33,7 @@ export class Workout extends Component {
           <Icon style={styles.searchIcon} name="search" size={16} />
           <TextInput style={styles.textinput} placeholder="Search"></TextInput>
         </View>
-        <View>
+        <View style={{}}>
           <Text>New Release</Text>
           <View style={{flexDirection: 'row'}}>
             <View style={styles.template}>
@@ -50,7 +50,7 @@ export class Workout extends Component {
             </View>
           </View>
         </View>
-        <View>
+        <View style={{}}>
           <View>
             <TouchableOpacity
               style={styles.SubmitButtonStyle1}

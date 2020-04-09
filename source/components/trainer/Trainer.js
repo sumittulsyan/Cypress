@@ -18,7 +18,7 @@ export class Trainer extends Component {
                     <Icon style={styles.searchIcon} name="search" size={16} />
                     <TextInput style={styles.textinput} placeholder="Search"></TextInput>
                 </View>
-                <View>
+                <View style={{}}>
                     <Text >Featured</Text>
                     <View style={{ flexDirection: "row" }}>
 

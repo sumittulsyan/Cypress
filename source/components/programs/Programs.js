@@ -9,7 +9,7 @@ import {
   Image,
   Dimensions,
 } from 'react-native';
-
+import styles from './Styles';
 export default class Programs extends Component {
   constructor(props) {
     super(props);

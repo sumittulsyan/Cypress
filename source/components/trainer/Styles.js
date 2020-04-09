@@ -86,14 +86,15 @@ flexDirection:"row",
     },
 
     template: {
-        width: 120,
+        flex:1,
+        width: "100%",
         justifyContent: "center",
         marginRight: 8
     },
     templateimg: {
         marginTop: 10,
         height: 80,
-        width: 110,
+        width: "100%",
         borderRadius: 5
     },
     templatetxt: {

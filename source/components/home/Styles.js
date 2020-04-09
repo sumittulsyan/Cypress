@@ -58,24 +58,29 @@ const styles = StyleSheet.create({
         justifyContent:"center",
         // width:320,
         borderRadius:2,
-        width:370,
+        width:"100%",
         height:140
         // marginHorizontal:100
     },
     findprogram:{
-         marginTop:10,
+        //marginTop:200,
+        //  flex:1,
+          height:20,
+        marginTop:180,
         flexDirection: "row",
         justifyContent: "space-between"
     },
     template:{
-        width:90,
+        flex:1,
+        // width:90,
         justifyContent:"center",
         marginRight:8
     },
     templateimg:{
         marginTop:10,
         height:100,
-        width:70,
+        width:"100%",
+        // width:70,
         borderRadius:5
     },
     templatetxt:{

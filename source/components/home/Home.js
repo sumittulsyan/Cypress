@@ -19,7 +19,7 @@ export class Home extends Component {
                     <Icon style={styles.searchIcon} name="search" size={16} />
                     <TextInput style={styles.textinput} placeholder="Search"></TextInput>
                 </View>
-                <View>
+                <View style={{flex:1}}>
                     <Text >Recommended Program</Text>
                     <Image style={styles.container} resizeMode="stretch" source={require('../../assets/back.jpeg')}/>
                 </View>
@@ -47,7 +47,7 @@ export class Home extends Component {
                     <Text style={styles.templatetxt}>Legs</Text>
                 </View>
                 </View>
-                <View style={styles.findprogram}>
+                <View style={{flexDirection:"row",justifyContent:"space-between"}}>
                     <Text style={{fontSize:14,fontWeight:"bold"}}>Program based on your fitness goal</Text>
                     <Text style={{fontSize:14,fontWeight:"bold"}}>More</Text>
                 </View>
