@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import {Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native';
+import {Text, View, TouchableOpacity, StyleSheet, Image,ScrollView} from 'react-native';
 import styles from './Styles';
 export class Suggestion extends Component {
   constructor(props) {
@@ -11,6 +11,7 @@ export class Suggestion extends Component {
   }
   render() {
     return (
+      <ScrollView>
       <View style={styles.screenlayout}>
         <View style={{flexDirection: 'row'}}>
           <TouchableOpacity onPress={() => this.props.navigation.pop()}>
@@ -168,7 +169,6 @@ export class Suggestion extends Component {
           </View>
         ) : (
           <View>
-            <View><Text>hell</Text></View>
             <View>
               <View style={styles.userrow}>
                 <View style={{flexDirection: 'row'}}>
@@ -484,6 +484,7 @@ export class Suggestion extends Component {
           </View>
         )}
       </View>
+      </ScrollView>
     );
   }
 }

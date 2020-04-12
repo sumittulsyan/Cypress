@@ -8,12 +8,14 @@ import {
   TextInput,
   Image,
   Dimensions,
+  ScrollView,
 } from 'react-native';
 import styles from './Styles';
 export class Group extends Component {
   render() {
     return (
-      <View style={styles.screenlayout}>
+      <ScrollView>      
+        <View style={styles.screenlayout}>
         <View style={styles.header}>
           <View>
             <Text style={styles.headertxt}>Groups</Text>
@@ -197,6 +199,7 @@ export class Group extends Component {
           </View>
         </View>
       </View>
+      </ScrollView>
     );
   }
 }

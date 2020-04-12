@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { Text, View,StyleSheet,TouchableOpacity,TextInput,Image } from 'react-native'
+import { Text, View,StyleSheet,TouchableOpacity,TextInput,Image,ScrollView } from 'react-native'
 import styles from '../directory/Styles';
 export class Directory extends Component {
     render() {
         return (
+          <ScrollView>
             <View style={styles.screenlayout}>
                 <View style={styles.header}>
           <View style={{flexDirection: 'row'}}>
@@ -167,6 +168,7 @@ export class Directory extends Component {
             </View>
           </View>
             </View>
+            </ScrollView>
         )
     }
 }

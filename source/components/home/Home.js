@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { Text, View, TouchableOpacity, StyleSheet, TextInput,Image,Dimensions } from 'react-native'
+import { Text, View, TouchableOpacity, TextInput,Image,Dimensions,ScrollView } from 'react-native'
 import styles from './Styles';
 export class Home extends Component {
     render() {
-        return (
+        return (<ScrollView>
             <View style={styles.screenlayout}>
                 <View style={styles.header}>
                     <View >
@@ -19,7 +19,7 @@ export class Home extends Component {
                     <Icon style={styles.searchIcon} name="search" size={16} />
                     <TextInput style={styles.textinput} placeholder="Search"></TextInput>
                 </View>
-                <View style={{flex:1}}>
+                <View style={{}}>
                     <Text >Recommended Program</Text>
                     <Image style={styles.container} resizeMode="stretch" source={require('../../assets/back.jpeg')}/>
                 </View>
@@ -70,6 +70,7 @@ export class Home extends Component {
                 </View>
                 </View>
             </View>
+            </ScrollView>
         )
     }
 }

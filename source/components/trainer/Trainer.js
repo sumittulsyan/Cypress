@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { Text, View, TouchableOpacity, StyleSheet, TextInput, Image, Dimensions } from 'react-native';
+import { Text, View, TouchableOpacity, ScrollView, TextInput, Image, } from 'react-native';
 import styles from './Styles';
 export class Trainer extends Component {
     render() {
         return (
+            <ScrollView>
             <View style={styles.screenlayout}>
                 <View style={styles.header}>
                     <View >
@@ -117,6 +118,7 @@ export class Trainer extends Component {
 
                 </View>
             </View>
+            </ScrollView>
         )
     }
 }

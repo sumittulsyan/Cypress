@@ -8,11 +8,13 @@ import {
   TextInput,
   Image,
   Dimensions,
+  ScrollView
 } from 'react-native';
 import styles from './Styles';
 export class Workout extends Component {
   render() {
     return (
+      <ScrollView>
       <View style={styles.screenlayout}>
         <View style={styles.header}>
           <View>
@@ -122,6 +124,7 @@ export class Workout extends Component {
           </View>
         </View>
       </View>
+      </ScrollView>
     );
   }
 }
