@@ -140,8 +140,6 @@ export default class App extends React.Component {
       backgroundColor:"#FFFFFF",
       flex:1,
       justifyContent:'center',
-      // paddingLeft:30,
-      // paddingRight:30,
     }
   })
 

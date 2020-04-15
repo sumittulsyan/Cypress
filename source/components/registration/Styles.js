@@ -1,8 +1,17 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     reform: {
+        paddingTop:40,
         alignSelf: 'stretch',
+        backgroundColor:"#d2daed",
+        flex:1
 
+    },
+    textPress:{
+        color:"black"
+    },
+    textt:{
+        color:"white"
     },
     toggle: {
         flexDirection: "row",
@@ -40,7 +49,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#dddddd',
         marginTop: 20,
         marginVertical: 10,
         marginLeft:60,
@@ -53,7 +62,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#dddddd',
         marginBottom: 180,
         marginLeft:60,
         marginRight:60
@@ -65,7 +74,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#dddddd',
         marginTop: 10,
         marginLeft:60,
         marginRight:60
@@ -84,7 +93,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         height: 40,
         flexDirection: 'row',
-        backgroundColor: '#fff', 
+        backgroundColor: '#dddddd', 
         // marginLeft:60,
         // marginRight:60
 
@@ -93,10 +102,11 @@ const styles = StyleSheet.create({
 
     },
     textinput: {
+        justifyContent:"flex-start",
         flex: 1,
         alignSelf: 'stretch',
         paddingBottom: 10,
-        color: "#00FFFF",
+        color: "#000",
 
     },
     otpverify: {
@@ -104,7 +114,7 @@ const styles = StyleSheet.create({
         // flex:1,
         alignSelf: "stretch",
         padding: 10, alignItems: "center",
-        backgroundColor: "#999900",
+        backgroundColor: "#f5bd1f",
         
     },
     margintothebottom: {
@@ -115,7 +125,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 10,
 
-        backgroundColor: "#999900"
+        backgroundColor: "#f5bd1f"
         , marginLeft:60,
         marginRight:60
     },
