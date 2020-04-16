@@ -1,7 +1,7 @@
 
-## Flat App React Native
+## Training App React Native
 
-Run the following commands on your terminal to setup Flat App React Native Theme on your system.
+Run the following commands on your terminal to setup Training App React Native Theme on your system.
 
 
 #### Installation
@@ -10,14 +10,14 @@ Run the following commands on your terminal to setup Flat App React Native Theme
 	*	Opt #1. Download ZIP
 
 		Not familiar with Git?
-		Click [here](http://gitstrap.com/strapmobile/FlatApp/repository/archive.zip?ref=master) to download Flat App React Native Theme.
+		Click [here](http://gitstrap.com/strapmobile/FlatApp/repository/archive.zip?ref=master) to download Training App React Native Theme.
 		Extract the contents of ZIP file after downloading.
-		Downloading ZIP file does not help you to sync with further updates of Flat App.
+		Downloading ZIP file does not help you to sync with further updates of Training App.
 
 	*	Opt #2. Clone
 
-		To setup Flat App React Native Theme on your system, and sync your app with constant updates, clone the repo.
-		Click [here](http://gitstrap.com/strapmobile/FlatApp) to clone Flat App using GitStrap.
+		To setup Training App React Native Theme on your system, and sync your app with constant updates, clone the repo.
+		Click [here](http://gitstrap.com/strapmobile/FlatApp) to clone Training App using GitStrap.
 
 *	**Install packages**
 ```

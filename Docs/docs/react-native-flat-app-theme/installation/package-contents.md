@@ -1,15 +1,15 @@
 
 ## Package Contents
 
-1. Flat App React Native
+1. Training App React Native
 
-	This is the React Native version of Flat App Theme
-2. Flat App CRNA
+	This is the React Native version of Training App Theme
+2. Training App CRNA
 
-	This is the CRNA version of Flat App Theme
+	This is the CRNA version of Training App Theme
 3. Docs
 
-**Note**: Both the React Native and CRNA version of Flat App Theme do not differ in functionalities and working.
+**Note**: Both the React Native and CRNA version of Training App Theme do not differ in functionalities and working.
 
 #### System Requirements
 
