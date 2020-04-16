@@ -21,14 +21,13 @@ Run the following commands on your terminal to setup Training App React Native T
 
 *	**Install packages**
 ```
-cd FlatApp/React-Native
+cd TrainingApp/React-Native
 yarn
-react-native link react-native-vector-icons
 ```
 
 *	**Run on iOS**
 	*	Opt #1:
-		*	Open the project in Xcode from `ios/StrapFlatApp.xcodeproj`
+		*	Open the project in Xcode from `ios/designApp.xcworkspace`
 		*	Click `run` button to simulate
 	*	Opt #2:
 		*	Run `react-native run-ios` in your terminal

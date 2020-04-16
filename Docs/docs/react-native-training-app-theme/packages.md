@@ -1,4 +1,8 @@
-{
+# Packages Used
+
+_package.json_
+
+<pre class="line-numbers"><code class="language-json">{
   "name": "designApp",
   "version": "1.0.0",
   "private": true,
@@ -38,3 +42,6 @@
     "preset": "react-native"
   }
 }
+
+
+</code></pre>
