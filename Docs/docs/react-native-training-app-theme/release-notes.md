@@ -5,7 +5,6 @@
 
 #### Features
 
--  React Native- 0.59.8
--  React- 
--  NativeBase- 
--  React Navigation- 2.17.0 
+- React Native- 16.11.0
+- React- 0.62.0
+- React Navigation- 4.3.5

@@ -66,6 +66,4 @@ Design App comes with its logo at login page. To change logo at login page:
     
     * Overwrite all the files if it prompts.
 
-### Changing the URL name for publishing with Expo
 
-* To change the App name for the Expo url, you just need to rename the [slug](https://docs.expo.io/versions/latest/guides/configuration.html#slug) attribute in `app.json` file.

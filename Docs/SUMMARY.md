@@ -6,7 +6,6 @@
 - [Installation](./docs/react-native-training-app-theme/installation/ReadMe.md)
   - [Package Contents](./docs/react-native-training-app-theme/installation/package-contents.md)
   - [React Native App](./docs/react-native-training-app-theme/installation/react-native-app.md)
- 
  - [Guide](./docs/common/guide.md)
   - [Customize](./docs/common/guide/customize.md)
 - [Packages](./docs/react-native-training-app-theme/packages.md)
