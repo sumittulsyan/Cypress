@@ -8,6 +8,7 @@ import {
   TextInput,
   Image,
   Dimensions,
+  SafeAreaView
 } from 'react-native';
 import styles from '../abs/Styles';
 
@@ -17,6 +18,7 @@ export default class Abs extends Component {
     }
   render() { 
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7"}}>
       <View style={styles.screenlayout}>
         <View style={styles.header}>
           <View style={{flexDirection: 'row'}}>
@@ -175,6 +177,7 @@ export default class Abs extends Component {
           </View>
         </View>
       </View>
+      </SafeAreaView>
     );
   }
 }

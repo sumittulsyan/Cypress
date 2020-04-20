@@ -8,12 +8,14 @@ import {
   TextInput,
   Image,
   Dimensions,
-  ScrollView
+  ScrollView,
+  SafeAreaView
 } from 'react-native';
 import styles from './Styles';
 export class Workout extends Component {
   render() {
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7",}}>
       <ScrollView>
       <View style={styles.screenlayout}>
         <View style={styles.header}>
@@ -35,7 +37,7 @@ export class Workout extends Component {
           <Icon style={styles.searchIcon} name="search" size={16} />
           <TextInput style={styles.textinput} placeholder="Search"></TextInput>
         </View>
-        <View style={{}}>
+        <View style={{marginBottom:20}}>
           <Text>New Release</Text>
           <View style={{flexDirection: 'row'}}>
             <View style={styles.template}>
@@ -125,6 +127,7 @@ export class Workout extends Component {
         </View>
       </View>
       </ScrollView>
+      </SafeAreaView>
     );
   }
 }

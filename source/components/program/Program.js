@@ -8,12 +8,13 @@ import {
   TextInput,
   Image,
   Dimensions,
-  ScrollView
+  ScrollView,SafeAreaView
 } from 'react-native';
 import styles from './Styles';
 export class Program extends Component {
   render() {
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7",}}>
 <ScrollView>
       <View style={styles.screenlayout}>
         <View style={styles.header}>
@@ -35,7 +36,7 @@ export class Program extends Component {
           <Icon style={styles.searchIcon} name="search" size={16} />
           <TextInput style={styles.textinput} placeholder="Search"></TextInput>
         </View>
-        <View style={{}}>
+        <View style={{marginBottom:20}}>
           <Text>New Release</Text>
           <TouchableOpacity
             onPress={() => this.props.navigation.navigate('Programs')}>
@@ -46,7 +47,7 @@ export class Program extends Component {
             />
           </TouchableOpacity>
         </View>
-        <View style={{}}>
+        <View style={{marginBottom:10}}>
           <View>
             <TouchableOpacity
               style={styles.SubmitButtonStyle1}
@@ -109,6 +110,7 @@ export class Program extends Component {
         </View>
       </View>
       </ScrollView>
+      </SafeAreaView>
     );
   }
 }

@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#fff',
+      backgroundColor: '#E3EEF7',
       marginTop: 50,
       marginVertical: 10,
       borderRadius: 10,
@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
     textinput: {
       flex: 1,
       alignSelf: 'stretch',
-      paddingBottom: 10,
-      color: '#00FFFF',
+      // paddingBottom: 10,
+      color: '#E3EEF7',
     },
     container: {
       marginRight: 20,

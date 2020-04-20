@@ -120,7 +120,8 @@
 // In App.js in a new project
 import 'react-native-gesture-handler';
 import * as React from 'react';
-import { Button, View, Text,StyleSheet } from 'react-native';
+import { Button, View, Text,StyleSheet,TextInput} from 'react-native';
+TextInput.defaultProps.selectionColor = 'black'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Regform from './source/components/registration/reg';

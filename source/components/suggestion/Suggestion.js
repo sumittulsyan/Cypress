@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import {Text, View, TouchableOpacity, StyleSheet, Image,ScrollView} from 'react-native';
+import {Text, View, TouchableOpacity, StyleSheet, Image,ScrollView,SafeAreaView} from 'react-native';
 import styles from './Styles';
 export class Suggestion extends Component {
   constructor(props) {
@@ -11,6 +11,7 @@ export class Suggestion extends Component {
   }
   render() {
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7"}}>
       <ScrollView>
       <View style={styles.screenlayout}>
         <View style={{flexDirection: 'row'}}>
@@ -485,6 +486,7 @@ export class Suggestion extends Component {
         )}
       </View>
       </ScrollView>
+      </SafeAreaView>
     );
   }
 }

@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 10,
 
-        backgroundColor: "#999900"
+        backgroundColor: "#F18F49"
         , marginLeft: 40,
         marginRight: 40,
         borderRadius:10
@@ -37,26 +37,21 @@ const styles = StyleSheet.create({
         //paddingTop:20
     },
     MainContainer: {
-        flex: 1,
+        // flex: 1,
         justifyContent: 'center',
         backgroundColor: '#F5FCFF',
     },
-    //   MainContainer1:{
-    //     flex: 1,
-    //     justifyContent: 'center',
-    //     backgroundColor: '#F5FCFF',
-    //   },
 
     SubmitButtonStyle: {
 
         // marginTop:10,
         paddingTop: 10,
-        paddingBottom: 30,
-        marginTop: 100,
+        paddingBottom: 10,
+        marginTop: 90,
         marginLeft: 40,
         marginRight: 40,
-        backgroundColor: '#00BCD4',
-        borderRadius: 10,
+          backgroundColor: '#22304A',
+        borderRadius: 20,
         borderWidth: 1,
         borderColor: '#000'
     },
@@ -65,11 +60,11 @@ const styles = StyleSheet.create({
         // marginTop:10,
         paddingTop: 10,
         paddingBottom: 10,
-        marginTop: 90,
+        marginTop: 20,
         marginLeft: 40,
         marginRight: 40,
-        backgroundColor: '#fff',
-        borderRadius: 10,
+        backgroundColor: '#E3EEF7',
+        borderRadius: 20,
         borderWidth: 1,
         borderColor: '#000'
     },
@@ -81,18 +76,24 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginLeft: 40,
         marginRight: 40,
-        backgroundColor: '#fff',
-        borderRadius: 10,
+        backgroundColor: '#E3EEF7',
+        borderRadius: 20,
         borderWidth: 1,
         borderColor: '#000'
     },
 
     TextStyle: {
-        color: '#fff',
-        paddingLeft:20
+         color: "#FFF",
+         paddingLeft:20
     },
     TextStyle1:{
-        paddingLeft:20
+        paddingLeft:20,
+        // color:"red"
+    },
+    fotter:{
+        justifyContent:"flex-end",
+        flex:1,
+        paddingBottom:40
     }
 
 });

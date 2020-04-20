@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
-  ScrollView,
+  ScrollView,SafeAreaView
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import styles from './Styles';
@@ -19,6 +19,7 @@ export class Userdirectory extends Component {
   }
   render() {
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7"}}>
       <ScrollView>
         <View style={styles.screenlayout}>
           <View style={styles.header}>
@@ -94,7 +95,7 @@ export class Userdirectory extends Component {
                     <Text>User Name</Text>
                   </View>
                 </View>
-                <View style={{height: 30}}>
+                <View style={{height: 40}}>
                   <Text
                     style={{
                       marginVertical: 10,
@@ -217,6 +218,7 @@ export class Userdirectory extends Component {
           </View>
         </View>
       </ScrollView>
+      </SafeAreaView>
     );
   }
 }

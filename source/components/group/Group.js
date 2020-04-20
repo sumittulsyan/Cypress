@@ -8,12 +8,13 @@ import {
   TextInput,
   Image,
   Dimensions,
-  ScrollView,
+  ScrollView,SafeAreaView
 } from 'react-native';
 import styles from './Styles';
 export class Group extends Component {
   render() {
     return (
+      <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7",}}>
       <ScrollView>      
         <View style={styles.screenlayout}>
         <View style={styles.header}>
@@ -200,6 +201,7 @@ export class Group extends Component {
         </View>
       </View>
       </ScrollView>
+      </SafeAreaView>
     );
   }
 }

@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 10,
 
-        backgroundColor: "#999900"
+        backgroundColor: "#F18F49"
         , marginLeft: 40,
         marginRight: 40,
         borderRadius:10
@@ -48,17 +48,34 @@ const styles = StyleSheet.create({
         marginTop: 10,
         marginLeft: 40,
         // marginRight: 40,
-        backgroundColor: '#00BCD4',
+        backgroundColor: '#E3EEF7',
         borderRadius: 20,
         borderWidth: 1,
         borderColor: '#000'
     },
-   
+    SubmitButtonStyleShade: {
+
+        // marginTop:10,
+        paddingTop: 5,
+        paddingBottom: 10,
+        marginTop: 10,
+        marginLeft: 40,
+        // marginRight: 40,
+        backgroundColor: '#22304A',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#000'
+    },
     
 
     TextStyle: {
         textAlign:"center",
-        color: '#fff',
+        color: '#000',
+        paddingHorizontal:5
+    },
+    TextStyleS: {
+        textAlign:"center",
+        color: '#FFF',
         paddingHorizontal:5
     },
     TextStyle1:{

@@ -3,7 +3,8 @@ const styles = StyleSheet.create({
     screenlayout: {
         paddingLeft: 20,
         paddingRight: 20,
-        marginTop: 40
+        marginTop: 40,
+        flex:1
 
     },
     header: {
@@ -57,7 +58,7 @@ flexDirection:"row",
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#E3EEF7',
         marginTop: 50,
         marginVertical: 10,
         borderRadius: 10
@@ -70,7 +71,6 @@ flexDirection:"row",
     textinput: {
         flex: 1,
         alignSelf: 'stretch',
-        paddingBottom: 10,
         color: "#00FFFF",
 
     },

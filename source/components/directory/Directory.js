@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { Text, View,StyleSheet,TouchableOpacity,TextInput,Image,ScrollView } from 'react-native'
+import { Text, View,StyleSheet,TouchableOpacity,TextInput,Image,ScrollView,SafeAreaView } from 'react-native'
 import styles from '../directory/Styles';
 export class Directory extends Component {
     render() {
         return (
+          <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7"}}>
           <ScrollView>
             <View style={styles.screenlayout}>
                 <View style={styles.header}>
@@ -169,6 +170,7 @@ export class Directory extends Component {
           </View>
             </View>
             </ScrollView>
+            </SafeAreaView>
         )
     }
 }

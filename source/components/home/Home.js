@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import { Text, View, TouchableOpacity, TextInput,Image,Dimensions,ScrollView } from 'react-native'
+import { Text, View, TouchableOpacity, TextInput,Image,Dimensions,ScrollView,SafeAreaView } from 'react-native'
 import styles from './Styles';
 export class Home extends Component {
     render() {
-        return (<ScrollView>
+        return (
+            <SafeAreaView style={{flex:1,backgroundColor:"#E3EEF7",}}>
+        <ScrollView>
             <View style={styles.screenlayout}>
                 <View style={styles.header}>
                     <View >
@@ -27,7 +29,7 @@ export class Home extends Component {
                     <Text style={{fontSize:14,fontWeight:"bold"}}>Find a Program</Text>
                     <Text style={{fontSize:14,fontWeight:"bold"}}>More</Text>
                 </View>
-                <View style={{flexDirection:"row"}}>
+                <View style={{flexDirection:"row",marginBottom:10}}>
                 <View style={styles.template}>
                     <TouchableOpacity onPress={()=>this.props.navigation.navigate("Abs")} >
                     <Image style={styles.templateimg} source={require('../../assets/arms0.jpeg') }/>
@@ -71,6 +73,7 @@ export class Home extends Component {
                 </View>
             </View>
             </ScrollView>
+            </SafeAreaView>
         )
     }
 }

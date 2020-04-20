@@ -3,22 +3,25 @@ const styles = StyleSheet.create({
     reform: {
         paddingTop:40,
         alignSelf: 'stretch',
-        backgroundColor:"#d2daed",
+        backgroundColor:"#E3EEF7",
         flex:1
 
     },
     textPress:{
-        color:"black"
+        color:"black",
+        fontWeight:"bold"
+        
     },
     textt:{
-        color:"white"
+        color:"grey",
+        fontWeight:"200"
     },
     toggle: {
         flexDirection: "row",
         justifyContent: "center"
     },
     toggletxt: {
-        marginHorizontal: 10, borderBottomColor: "#000000",
+        marginHorizontal: 15, borderBottomColor: "#000000",
         borderBottomWidth: 1,
     },
 
@@ -44,40 +47,42 @@ const styles = StyleSheet.create({
         padding: 10
     },
     phoneno: {
+        elevation:4,
         borderColor: "#000000",
-        borderWidth: 1, height: 40,
+        borderWidth: .5, height: 45,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#dddddd',
+        backgroundColor: '#E3EEF7',
         marginTop: 20,
-        marginVertical: 10,
+        marginVertical: 15,
         marginLeft:60,
         marginRight:60
     },
     password: {
         borderColor: "#000000",
-        borderWidth: 1,
-        height: 40,
+        borderWidth: .5,
+        height: 45,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#dddddd',
-        marginBottom: 180,
+        backgroundColor: '#E3EEF7',
+        // marginBottom: 180,
         marginLeft:60,
         marginRight:60
     },
     setpassword: {
         borderColor: "#000000",
-        borderWidth: 1,
-        height: 40,
+        borderWidth: .5,
+        height: 45,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#dddddd',
+        backgroundColor: '#E3EEF7',
         marginTop: 10,
         marginLeft:60,
-        marginRight:60
+        marginRight:60,
+        elevation:-4
     },
     otpset: {
         flexDirection: "row",
@@ -87,16 +92,12 @@ const styles = StyleSheet.create({
 
     },
     otp: {
-
         flex: 1,
         borderColor: "#000000",
-        borderWidth: 1,
-        height: 40,
+        borderWidth: .5,
+        height: 45,
         flexDirection: 'row',
-        backgroundColor: '#dddddd', 
-        // marginLeft:60,
-        // marginRight:60
-
+        backgroundColor: '#E3EEF7',
     },
     otptextinput: {
 
@@ -105,46 +106,56 @@ const styles = StyleSheet.create({
         justifyContent:"flex-start",
         flex: 1,
         alignSelf: 'stretch',
-        paddingBottom: 10,
         color: "#000",
-
     },
     otpverify: {
         marginLeft: 10,
         // flex:1,
         alignSelf: "stretch",
         padding: 10, alignItems: "center",
-        backgroundColor: "#f5bd1f",
+        backgroundColor: "#F18F49",
+        justifyContent:"center"
         
     },
     margintothebottom: {
         marginBottom: 80
     },
     button: {
+        height:45,
         alignSelf: "stretch",
         alignItems: "center",
         padding: 10,
 
-        backgroundColor: "#f5bd1f"
+        backgroundColor: "#F18F49"
         , marginLeft:60,
-        marginRight:60
+        marginRight:60,
+        justifyContent:"center"
     },
     btntext: {
+        
+        textAlign:"center",
         color: "#fff",
         fontWeight: "bold",
+        fontSize:16,
+        letterSpacing:1
 
     },
     footer: {
+        letterSpacing:1,
         marginTop: 20,
         textAlign: "center"
     },
     footericon: {
+        backgroundColor:"#E3EEF7",
+        elevation:4,
         flexDirection: "row",
         justifyContent: "center",
         padding: 10
     },
     icon: {
-        padding: 5
-    }
+        padding: 5,
+        paddingHorizontal:15
+    },
+    fotter:{justifyContent: 'flex-end',flex:1,paddingBottom:40}
 });
 export default styles;

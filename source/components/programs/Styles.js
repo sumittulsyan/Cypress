@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       height: 40,
        flexDirection: 'row',
-      backgroundColor: '#fff',
-      marginTop: 40,
+      backgroundColor: '#E3EEF7',
+      marginTop: 20,
       marginVertical: 5,
       borderRadius: 10,
       paddingHorizontal: 10,
@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     textinput: {
       // flex: 1,
       alignSelf: 'stretch',
-      paddingBottom: 10,
       color: '#000000',
     },
     findprogram: {
