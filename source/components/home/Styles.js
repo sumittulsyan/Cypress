@@ -29,13 +29,12 @@ const styles = StyleSheet.create({
 
     },
     phoneno: {
-        //flex:1,
         borderColor: "#000000",
         borderWidth: 1, height: 40,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff',
+        backgroundColor: '#E3EEF7',
         marginTop: 50,
         marginVertical: 10,
         borderRadius: 10
@@ -48,7 +47,6 @@ const styles = StyleSheet.create({
     textinput: {
         flex: 1,
         alignSelf: 'stretch',
-        paddingBottom: 10,
         color: "#00FFFF",
 
     },
