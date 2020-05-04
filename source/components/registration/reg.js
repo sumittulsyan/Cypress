@@ -126,11 +126,11 @@ export default class Regform extends Component {
               <Text style={styles.footer}>Or sign up with</Text>
             )}
             <View style={styles.footericon}>
-            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/mail.png')} />
+            <Image style={{height:12,width:16, justifyContent:"center",alignItems:"center",}} source={require('../../assets/Icons/mail.png')}  resizeMode="contain"/>
 
-            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/twitter.png')} />
+            <Image style={{height:12,width:16, justifyContent:"center",alignItems:"center",}} source={require('../../assets/Icons/twitter.png')} resizeMode="contain"/>
 
-            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/facebook.png')} />
+            <Image style={{height:16,width:20, justifyContent:"center",alignItems:"center"}} source={require('../../assets/Icons/facebook.png')}resizeMode="contain" />
 
             </View>
           </View>
