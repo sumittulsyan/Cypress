@@ -22,11 +22,9 @@ export class Trainer extends Component {
               </View>
               <View style={{flexDirection: 'row'}}>
                 <View>
-                  <Icon
-                    name="bars"
-                    size={20}
-                    color="#000"
-                    style={{paddingHorizontal: 5}}
+                  <Image
+                    style={{height: 16, width: 16}}
+                    source={require('../../assets/Icons/Alert.png')}
                   />
                 </View>
               </View>
@@ -35,8 +33,16 @@ export class Trainer extends Component {
               <Icon style={styles.searchIcon} name="search" size={16} />
               <TextInput style={styles.textinput} placeholder="Search" />
             </View>
-            <View style={{marginBottom: 20}}>
-              <Text>Featured</Text>
+            <View style={{marginBottom: 20, paddingLeft: 15, paddingRight: 15}}>
+              <Text
+                style={{
+                  fontSize: 16,
+                  color: '#22304A',
+                  fontWeight: 'bold',
+                  color: '#22304A',
+                }}>
+                Featured
+              </Text>
               <View style={{flexDirection: 'row'}}>
                 <View style={styles.template}>
                   <Image
@@ -50,7 +56,7 @@ export class Trainer extends Component {
                     source={require('../../assets/arms3.png')}
                   />
                 </View>
-                <View style={styles.template}>
+                <View style={styles.templatelast}>
                   <Image
                     style={styles.templateimg}
                     source={require('../../assets/chest1.jpeg')}
@@ -64,12 +70,22 @@ export class Trainer extends Component {
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}
                   onPress={() => this.props.navigation.navigate('Suggestion')}>
-                  <Text style={{paddingLeft: 20}}> Available </Text>
+                  <Text
+                    style={{
+                      paddingLeft: 15,
+                      fontSize: 14,
+                      color: '#22304A',
+                      letterSpacing: 0.5,
+                      fontWeight: 'normal',
+                    }}>
+                    {' '}
+                    Available{' '}
+                  </Text>
                   <Icon
                     name="chevron-right"
-                    size={16}
+                    size={12}
                     color="#000"
-                    style={{paddingHorizontal: 5}}
+                    style={{paddingHorizontal: 15}}
                   />
                 </TouchableOpacity>
               </View>
@@ -78,12 +94,22 @@ export class Trainer extends Component {
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}
                   onPress={() => this.props.navigation.navigate('Directory')}>
-                  <Text style={{paddingLeft: 20}}> Directory </Text>
+                  <Text
+                    style={{
+                      paddingLeft: 15,
+                      fontSize: 14,
+                      color: '#22304A',
+                      letterSpacing: 0.5,
+                      fontWeight: 'normal',
+                    }}>
+                    {' '}
+                    Directory{' '}
+                  </Text>
                   <Icon
                     name="chevron-right"
-                    size={16}
+                    size={12}
                     color="#000"
-                    style={{paddingHorizontal: 5}}
+                    style={{paddingHorizontal: 15}}
                   />
                 </TouchableOpacity>
               </View>
@@ -91,43 +117,75 @@ export class Trainer extends Component {
                 <TouchableOpacity
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}>
-                  <Text style={{paddingLeft: 20}}> Updates </Text>
+                  <Text
+                    style={{
+                      paddingLeft: 15,
+                      fontSize: 14,
+                      color: '#22304A',
+                      letterSpacing: 0.5,
+                      fontWeight: 'normal',
+                    }}>
+                    {' '}
+                    Updates{' '}
+                  </Text>
                   <Icon
                     name="chevron-right"
-                    size={16}
+                    size={12}
                     color="#000"
-                    style={{paddingHorizontal: 5}}
+                    style={{paddingHorizontal: 15}}
                   />
                 </TouchableOpacity>
               </View>
             </View>
-            <View style={{marginVertical: 8}}>
-              <Text style={{fontSize: 14, fontWeight: 'bold'}}>
+            <View style={{marginTop: 15}}>
+              <Text
+                style={{
+                  fontSize: 16,
+                  fontWeight: 'bold',
+                  color: '#22304A',
+                  marginLeft: 15,
+                }}>
                 Explore and stay motivated
               </Text>
             </View>
             <View
-              style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-              <View style={{flexDirection:"row"}}>
+              style={{
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                marginLeft: 15,
+                marginRight: 15,
+                marginTop: 26,
+                
+              }}>
+              <View style={{flexDirection: 'row', alignItems: 'center',justifyContent:"center",alignContent:"center"}}>
                 <View>
                   <TouchableOpacity style={styles.circularcontainer} />
                 </View>
-                <View>
+                <View style={{}}>
                   <View
                     style={{
                       flexDirection: 'column',
                       paddingLeft: 10,
                       paddingTop: 5,
+                      textAlignVertical:"center",alignItems:"flex-start",justifyContent:"center",alignContent:"center",
                     }}>
-                    <Text>User Name</Text>
+                    <Text style={{color: '#22304A', fontSize: 16,}}>
+                      User Name
+                    </Text>
                     <Text
-                      style={{fontSize: 12, paddingTop: 2, fontWeight: '100'}}>
+                      style={{
+                        fontSize: 14,
+                        paddingTop: 2,
+                        fontWeight: '400',
+                        color: '#8391A1',
+                        
+                      }}>
                       Fitness Trainer
                     </Text>
                   </View>
                 </View>
               </View>
-              <View>
+              
                 <TouchableOpacity
                   style={styles.SubmitButtonStyle}
                   activeOpacity={0.5}>
@@ -136,10 +194,10 @@ export class Trainer extends Component {
                     name="plus"
                     size={12}
                     color="#000"
-                    style={{paddingTop: 5, paddingRight: 5}}
+                    style={{ paddingRight:10, paddingLeft:5, alignSelf:"center"}}
                   />
                 </TouchableOpacity>
-              </View>
+              
             </View>
             <View style={{flexDirection: 'row'}}>
               <View style={styles.template}>

@@ -1,8 +1,8 @@
 import {StyleSheet} from 'react-native';
 const styles =StyleSheet.create({
     screenlayout: {
-        paddingLeft: 20,
-        paddingRight: 20,
+        paddingLeft: 15,
+        paddingRight: 15,
         marginTop: 40,
       },
       header: {
@@ -12,23 +12,21 @@ const styles =StyleSheet.create({
       },
       headertxt: {
         fontWeight: 'bold',
-        fontSize: 22,
+        fontSize: 20,
         paddingLeft: 5,
-        // paddingBottom:5
-        marginBottom: 5,
       },
       phoneno: {
-        //  flex:1,
-        borderColor: '#000000',
-        borderWidth: 1,
+        borderTopColor:"#AFB8C4",
+        borderLeftColor:"#E3EEF7",
+        borderRightColor:"#E3EEF7",
+        borderBottomColor:"#fff",
+        borderWidth: 1, 
         height: 40,
-         flexDirection: 'row',
+        flexDirection: 'row',
         backgroundColor: '#E3EEF7',
-        marginTop: 40,
-        marginVertical: 5,
+        marginTop: 16,
         borderRadius: 10,
-        paddingHorizontal: 10,
-      },
+    },
       searchIcon: {
         // justifyContent: 'center',
         // alignItems: 'center',
@@ -57,23 +55,33 @@ const styles =StyleSheet.create({
         marginTop: 10,
         marginLeft: 5,
       },
+      userheading:{
+        fontSize:16,
+        color:"#22304A"
+      },
+      usersubheading:{
+        fontSize:16,
+        color:"#8391A1"
+      },
       SubmitButtonStyle: {
         flexDirection: 'row',
-        // marginTop:10,
-        paddingTop: 5,
-        paddingBottom: 10,
+        paddingTop: 6,
+        paddingBottom: 6,
         marginTop: 10,
-        marginLeft: 40,
-        // marginRight: 40,
+        paddingHorizontal:15,
         backgroundColor: 'white',
         borderRadius: 20,
         borderWidth: 1,
         borderColor: '#FFF',
         elevation: 8,
+        shadowColor: '#000',
+      shadowOffset: {width: 0, height: 1.2},
+      shadowOpacity: 0.5,
+      shadowRadius: 5,
       },
       TextStyle: {
         textAlign: 'center',
-        color: '#000',
+        color: '#09152D',
         paddingHorizontal: 10,
         fontWeight: 'bold',
       },

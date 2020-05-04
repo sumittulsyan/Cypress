@@ -8,6 +8,8 @@ import {
   TextInput,
   SafeAreaView,
   TouchableHighlight,
+  ScrollView,
+  Image
 } from 'react-native';
 import {color} from 'react-native-reanimated';
 import Icon from 'react-native-vector-icons/FontAwesome5';
@@ -22,7 +24,7 @@ export default class Regform extends Component {
   }
   render() {
     return (
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={{flex: 1,backgroundColor:"#E3EEF7",}}>
         <View style={styles.reform}>
           <Text style={styles.header}>EVER FIT</Text>
           <Text style={styles.subheader}>Your Peronal trainer</Text>
@@ -31,11 +33,7 @@ export default class Regform extends Component {
           </Text>
           <View style={styles.toggle}>
             <TouchableOpacity
-              style={{
-                marginHorizontal: 15,
-                borderBottomColor: '#000000',
-                borderBottomWidth: 1,
-              }}
+              style={this.state.pressStatus ? styles.toggletxtinactive: styles.toggletxtactive}
               onPress={() =>
                 this.setState({method: false, pressStatus: false})
               }>
@@ -47,7 +45,7 @@ export default class Regform extends Component {
               </Text>
             </TouchableOpacity>
             <TouchableOpacity
-              style={styles.toggletxt}
+              style={ this.state.pressStatus ? styles.toggletxtinact:styles.toggletxtact}
               onPress={() => this.setState({method: true, pressStatus: true})}>
               <Text
                 style={
@@ -61,42 +59,29 @@ export default class Regform extends Component {
             </TouchableOpacity>
           </View>
           <View style={styles.phoneno}>
-            <Icon
-              style={styles.searchIcon}
-              name="phone"
-              size={20}
-              color="#000"
-            />
+            <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/Phone.png')} />
             <TextInput style={styles.textinput} placeholder="+91-8486629876" />
-            <View style={{backgroundColor:"#F18F49"}}>
+           
             <Icon
-              style={styles.searchIcon}
+              style={styles.searchIconTick}
               name="check"
               size={18}
               color="#FFF"
             />
-            </View>
+          
           </View>
           {this.state.method == true ? (
             <View style={styles.password}>
-              <Icon
-                style={styles.searchIcon}
-                name="lock"
-                size={20}
-                color="#000"
-              />
+                          <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10,color:"#fff"}} source={require('../../assets/Icons/Lock.png')} />
+
               <TextInput style={styles.textinput} placeholder="Password" />
             </View>
           ) : (
             <View>
               <View style={styles.otpset}>
                 <View style={styles.otp}>
-                  <Icon
-                    style={styles.searchIcon}
-                    name="keyboard"
-                    size={20}
-                    color="#000"
-                  />
+                <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/otp.png')} />
+
                   <TextInput style={styles.otptextinput} placeholder="OTP" />
                 </View>
                 <TouchableOpacity style={styles.otpverify}>
@@ -105,12 +90,8 @@ export default class Regform extends Component {
               </View>
               <View>
                 <View style={styles.setpassword}>
-                  <Icon
-                    style={styles.searchIcon}
-                    name="lock"
-                    size={20}
-                    color="#000"
-                  />
+                <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/Lock.png')} />
+
                   <TextInput
                     style={styles.textinput}
                     placeholder="Set Password"
@@ -119,12 +100,8 @@ export default class Regform extends Component {
               </View>
               <View style={styles.margintothebottom}>
                 <View style={styles.setpassword}>
-                  <Icon
-                    style={styles.searchIcon}
-                    name="lock"
-                    size={20}
-                    color="#000"
-                  />
+                <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/Lock.png')} />
+
                   <TextInput
                     style={styles.textinput}
                     placeholder="Repeat Password"
@@ -144,29 +121,17 @@ export default class Regform extends Component {
               )}
             </TouchableOpacity>
             {this.state.method == true ? (
-              <Text style={styles.footer}>Sign In With</Text>
+              <Text style={styles.footer}> Or sign in with</Text>
             ) : (
-              <Text style={styles.footer}>Sign Up With</Text>
+              <Text style={styles.footer}>Or sign up with</Text>
             )}
             <View style={styles.footericon}>
-              <Icon
-                name="snapchat"
-                size={20}
-                color="#000000"
-                style={styles.icon}
-              />
-              <Icon
-                name="twitter"
-                size={20}
-                color="#000000"
-                style={styles.icon}
-              />
-              <Icon
-                name="facebook-f"
-                size={20}
-                color="#000000"
-                style={styles.icon}
-              />
+            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/mail.png')} />
+
+            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/twitter.png')} />
+
+            <Image style={{height:20,width:12, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/facebook.png')} />
+
             </View>
           </View>
         </View>

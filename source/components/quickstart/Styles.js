@@ -3,9 +3,9 @@ const styles = StyleSheet.create({
     quickstart: {
         color: "#0000FF",
         marginTop: 20,
-        marginLeft: 20,
+        marginLeft: 15,
         flexDirection: "row",
-
+        alignItems:"center"
         // justifyContent: "center"
     }, button: {
         marginTop: 150,
@@ -20,20 +20,22 @@ const styles = StyleSheet.create({
     },
     btntext: {
         color: "#fff",
-        fontWeight: "bold",
+        fontWeight: "normal",
+        fontSize:16
 
     },
     text1: {
         fontWeight: "bold",
-        fontSize: 24,
+        fontSize: 30,
         marginTop: 20,
-        marginLeft: 40,
-        color: "#000080"
+        marginLeft: 30,
+        color: "#22304A"
     },
     text2: {
-        fontSize: 18,
-        marginLeft: 36,
+        fontSize: 20,
+        marginLeft: 30,
         marginTop: 16,
+        color:"#22304A"
         //paddingTop:20
     },
     MainContainer: {
@@ -48,8 +50,8 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         marginTop: 90,
-        marginLeft: 40,
-        marginRight: 40,
+        marginLeft: 30,
+        marginRight: 30,
           backgroundColor: '#22304A',
         borderRadius: 20,
         borderWidth: 1,
@@ -61,12 +63,12 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         marginTop: 20,
-        marginLeft: 40,
-        marginRight: 40,
+        marginLeft: 30,
+        marginRight: 30,
         backgroundColor: '#E3EEF7',
         borderRadius: 20,
         borderWidth: 1,
-        borderColor: '#000'
+        borderColor: '#798291'
     },
     SubmitButtonStyle2: {
 
@@ -74,26 +76,29 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10,
         marginTop: 20,
-        marginLeft: 40,
-        marginRight: 40,
+        marginLeft: 30,
+        marginRight: 30,
         backgroundColor: '#E3EEF7',
         borderRadius: 20,
         borderWidth: 1,
-        borderColor: '#000'
+        borderColor: '#798291'
     },
 
     TextStyle: {
          color: "#FFF",
-         paddingLeft:20
+         paddingLeft:20,
+         fontSize:16
     },
     TextStyle1:{
         paddingLeft:20,
+        color:"#798291",
+        fontSize:16
         // color:"red"
     },
     fotter:{
         justifyContent:"flex-end",
         flex:1,
-        paddingBottom:40
+        paddingBottom:34
     }
 
 });

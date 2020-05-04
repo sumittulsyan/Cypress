@@ -1,161 +1,216 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
-    reform: {
-        paddingTop:40,
-        alignSelf: 'stretch',
-        backgroundColor:"#E3EEF7",
-        flex:1
+  reform: {
+    paddingTop: 80,
+    alignSelf: 'stretch',
+    flex: 1,
+  },
+  textPress: {
+    color: 'black',
+    fontWeight: 'bold',
+    fontStyle: 'italic',
+  },
+  textt: {
+    color: 'grey',
+    fontWeight: '200',
+  },
+  toggle: {
+    marginBottom: 40,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  toggletxtactive: {
+    marginHorizontal: 15,
+    borderBottomColor: '#000000',
+    paddingBottom: 4,
+    borderBottomWidth: 2,
+  },
+  toggletxtinactive: {
+    marginHorizontal: 15,
+    borderBottomColor: '#E3EEF7',
+    paddingBottom: 4,
+    borderBottomWidth: 2,
+  },
 
-    },
-    textPress:{
-        color:"black",
-        fontWeight:"bold"
-        
-    },
-    textt:{
-        color:"grey",
-        fontWeight:"200"
-    },
-    toggle: {
-        flexDirection: "row",
-        justifyContent: "center"
-    },
-    toggletxt: {
-        marginHorizontal: 15, borderBottomColor: "#000000",
-        borderBottomWidth: 1,
-    },
+  toggletxtact: {
+    marginHorizontal: 15,
+    borderBottomColor: '#E3EEF7',
+    paddingBottom: 4,
+    borderBottomWidth: 2,
+  },
+  toggletxtinact: {
+    marginHorizontal: 15,
+    borderBottomColor: '#fff',
+    paddingBottom: 4,
+    borderBottomWidth: 2,
+  },
 
-    header: {
-        alignSelf: "center",
+  header: {
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    fontSize: 24,
+    color: '#000000',
+    paddingBottom: 10,
+    borderBottomColor: 1,
+  },
+  subheader: {
+    alignSelf: 'center',
+  },
+  subheader1: {
+    alignSelf: 'center',
+    paddingBottom: 80,
+  },
+  searchIcon: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10,
+  },
+  searchIconTick: {
+    alignContent: 'center',
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 12,
+    backgroundColor: '#F18F49',
+  },
+  phoneno: {
+    borderTopColor: '#AFB8C4',
+    borderLeftColor: '#E3EEF7',
+    borderRightColor: '#E3EEF7',
+    borderBottomColor: '#fff',
+    borderWidth: 1,
+    elevation: 4,
+    borderColor: '#AFB8C4',
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#E3EEF7',
+    marginTop: 20,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 29,
+  },
+  password: {
+    borderColor: '#AFB8C4',
+    borderWidth: 0.5,
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#E3EEF7',
+    // marginBottom: 180,
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 29,
+    borderBottomColor: '#FFF',
+    borderRightColor: '#FFF',
+  },
+  setpassword: {
+    borderColor: '#AFB8C4',
+    borderWidth: 0.5,
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#E3EEF7',
+    // marginTop: 10,
+    marginLeft: 30,
+    marginRight: 30,
+    elevation: -4,
+    marginBottom: 29,
+    borderBottomColor: '#FFF',
+    borderRightColor: '#FFF',
+  },
+  otpset: {
+    flexDirection: 'row',
+    alignSelf: 'stretch',
+    marginLeft: 30,
+    marginRight: 30,
+    marginBottom: 29,
+    borderBottomColor: '#FFF',
+    borderRightColor: '#FFF',
+  },
+  otp: {
+    flex: 1,
+    borderColor: '#AFB8C4',
+    borderWidth: 0.5,
+    height: 45,
+    flexDirection: 'row',
+    backgroundColor: '#E3EEF7', justifyContent:"flex-start",alignItems:"center"
+  },
+  otptextinput: {},
+  textinput: {
+    justifyContent: 'flex-start',
+    flex: 1,
+    alignSelf: 'stretch',
+    color: '#000',
+  },
+  otpverify: {
+    marginLeft: 10,
+    // flex:1,
+    alignSelf: 'stretch',
+    padding: 10,
+    alignItems: 'center',
+    backgroundColor: '#F18F49',
+    justifyContent: 'center',
+    paddingHorizontal: 40,
+    borderRadius: 5,
+  },
+  margintothebottom: {
+    marginBottom: 80,
+  },
+  button: {
+    height: 45,
+    alignSelf: 'stretch',
+    alignItems: 'center',
+    padding: 10,
 
-        fontSize: 24,
-        color: "#000000",
-        paddingBottom: 10,
-        borderBottomColor: 1,
-    },
-    subheader: {
-
-        alignSelf: "center",
-    },
-    subheader1: {
-        alignSelf: "center",
-        paddingBottom: 40
-    },
-    searchIcon: {
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 10
-    },
-    phoneno: {
-        elevation:4,
-        borderColor: "#000000",
-        borderWidth: .5, height: 45,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#E3EEF7',
-        marginTop: 20,
-        marginVertical: 15,
-        marginLeft:60,
-        marginRight:60
-    },
-    password: {
-        borderColor: "#000000",
-        borderWidth: .5,
-        height: 45,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#E3EEF7',
-        // marginBottom: 180,
-        marginLeft:60,
-        marginRight:60
-    },
-    setpassword: {
-        borderColor: "#000000",
-        borderWidth: .5,
-        height: 45,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#E3EEF7',
-        marginTop: 10,
-        marginLeft:60,
-        marginRight:60,
-        elevation:-4
-    },
-    otpset: {
-        flexDirection: "row",
-        alignSelf: "stretch",
-        marginLeft:60,
-        marginRight:60
-
-    },
-    otp: {
-        flex: 1,
-        borderColor: "#000000",
-        borderWidth: .5,
-        height: 45,
-        flexDirection: 'row',
-        backgroundColor: '#E3EEF7',
-    },
-    otptextinput: {
-
-    },
-    textinput: {
-        justifyContent:"flex-start",
-        flex: 1,
-        alignSelf: 'stretch',
-        color: "#000",
-    },
-    otpverify: {
-        marginLeft: 10,
-        // flex:1,
-        alignSelf: "stretch",
-        padding: 10, alignItems: "center",
-        backgroundColor: "#F18F49",
-        justifyContent:"center"
-        
-    },
-    margintothebottom: {
-        marginBottom: 80
-    },
-    button: {
-        height:45,
-        alignSelf: "stretch",
-        alignItems: "center",
-        padding: 10,
-
-        backgroundColor: "#F18F49"
-        , marginLeft:60,
-        marginRight:60,
-        justifyContent:"center"
-    },
-    btntext: {
-        
-        textAlign:"center",
-        color: "#fff",
-        fontWeight: "bold",
-        fontSize:16,
-        letterSpacing:1
-
-    },
-    footer: {
-        letterSpacing:1,
-        marginTop: 20,
-        textAlign: "center"
-    },
-    footericon: {
-        backgroundColor:"#E3EEF7",
-        elevation:4,
-        flexDirection: "row",
-        justifyContent: "center",
-        padding: 10
-    },
-    icon: {
-        padding: 5,
-        paddingHorizontal:15
-    },
-    fotter:{justifyContent: 'flex-end',flex:1,paddingBottom:40}
+    backgroundColor: '#F18F49',
+    marginLeft: 30,
+    marginRight: 30,
+    justifyContent: 'center',
+    borderRadius: 5,
+  },
+  btntext: {
+    textAlign: 'center',
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 16,
+    letterSpacing: 1,
+  },
+  footer: {
+    letterSpacing: 0.5,
+    marginTop: 45,
+    textAlign: 'center',
+    fontSize: 16,
+  },
+  footericon: {
+    marginTop: 15,
+    backgroundColor: '#E3EEF7',
+    elevation: 4,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems:"center",
+    paddingHorizontal: 10,
+    width: '45%',
+    // marginHorizontal: 110,
+    height: 35,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 1},
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    borderRadius: 5,
+  },
+  icon: {
+    padding: 5,
+    paddingHorizontal: 20,
+  },
+  fotter: {
+    justifyContent: 'flex-end',
+    flex: 1,
+    paddingBottom: 45,
+    alignItems: 'center',
+  },
 });
 export default styles;

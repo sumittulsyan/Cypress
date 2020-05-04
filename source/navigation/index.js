@@ -29,11 +29,12 @@
 //     AuthStack,
 // );
 import {
-    createAppContainer,
+    createAppContainer, createSwitchNavigator,
 } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import React from 'react';
+import { Image } from 'react-native';
 import Regform from '../components/registration/reg';
 import HomeScreen from '../components/quickstart/quickstart';
 import QuickStartSecond from '../components/quickstart_second/quickstart_second';
@@ -48,6 +49,9 @@ import Programs from '../components/programs/Programs';
 import Suggestion from '../components/suggestion/Suggestion';
 import Directory from '../components/directory/Directory';
 import Userdirectory from '../components/userdirectory/Userdirectory';
+const TrainerSwitch =createSwitchNavigator({
+  Trainer,Suggestion,Directory
+})
 const BottomTabNavigator = createBottomTabNavigator({
 
     
@@ -56,7 +60,7 @@ const BottomTabNavigator = createBottomTabNavigator({
         navigationOptions:{  
           tabBarLabel:'Home',  
           tabBarIcon:({tintColor})=>(  
-              <Icon name="home" color={tintColor} size={20}/>  
+            <Image source={require('../assets/Icons/Feed.png')} style={{height:16,width:16}} />
           )  
         }  
       },Program:{  
@@ -64,7 +68,7 @@ const BottomTabNavigator = createBottomTabNavigator({
         navigationOptions:{  
           tabBarLabel:'Program',  
           tabBarIcon:({tintColor})=>(  
-              <Icon name="tasks" color={tintColor} size={20}/>  
+            <Image source={require('../assets/Icons/Calendar.png')} style={{height:16,width:16}} />
           )  
         }  
       }
@@ -73,16 +77,16 @@ const BottomTabNavigator = createBottomTabNavigator({
         navigationOptions:{  
           tabBarLabel:'Workout',  
           tabBarIcon:({tintColor})=>(  
-              <Icon name="dumbbell" color={tintColor} size={20}/>  
+            <Image source={require('../assets/Icons/workout.png')} style={{height:16,width:16}} />
           )  
         }  
       }
-      ,Trainer:{  
-        screen:Trainer,  
+      ,TrainerSwitch:{  
+        screen:TrainerSwitch,
         navigationOptions:{  
           tabBarLabel:'Trainer',  
           tabBarIcon:({tintColor})=>(  
-              <Icon name="user" color={tintColor} size={20}/>  
+            <Image source={require('../assets/Icons/trainer.png')} style={{height:16,width:16}} />
           )  
         }  
       }
@@ -91,7 +95,7 @@ const BottomTabNavigator = createBottomTabNavigator({
         navigationOptions:{  
           tabBarLabel:'Group',  
           tabBarIcon:({tintColor})=>(  
-              <Icon name="project-diagram" color={tintColor} size={20}/>  
+            <Image source={require('../assets/Icons/group.png')} style={{height:16,width:16}} />
           )  
         }  
       }

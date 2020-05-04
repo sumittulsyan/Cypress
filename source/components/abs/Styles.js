@@ -1,21 +1,25 @@
 import { StyleSheet} from 'react-native';
 const styles=StyleSheet.create({
     screenlayout: {
-      paddingLeft: 20,
-      paddingRight: 20,
+     
       marginTop: 40,
     },
     header: {
+      paddingLeft: 12,
+      paddingRight: 12,
       flexDirection: 'row',
-      flex: 1,
       justifyContent: 'space-between',
+      alignContent:"center",
+      alignItems:"center",
+      marginBottom:20
     },
     headertxt: {
       fontWeight: 'bold',
-      fontSize: 22,
+      fontSize: 20,
       paddingLeft: 5,
       // paddingBottom:5
       marginBottom: 5,
+      color:"#22304A"
     },
     secondheadertxt: {
       fontWeight: 'bold',
@@ -48,27 +52,36 @@ const styles=StyleSheet.create({
       color: '#00FFFF',
     },
     container: {
-      marginRight: 20,
-      marginTop: 40,
       justifyContent: 'center',
-      // width:320,
       borderRadius: 2,
-      width: 370,
-      height: 180,
-      // marginHorizontal:100
+      width: "100%",
+      height: 220,
     },
     findprogram: {
-      marginTop: 10,
+      marginHorizontal:12,
+      marginTop: 15,
+      marginBottom:16
+    },
+    findprogramtxt:{
+      fontSize:16,
+      color:"#22304A",
+      fontWeight:"normal"
+    },
+    findprogramsubtxt:{
+      paddingVertical:.5,
+      fontSize:16,
+      color:"#9EA2AC",
+      fontWeight:"500"
     },
     template: {
-      width: 90,
+      width: 97,
       justifyContent: 'center',
-      marginRight: 8,
+      // marginRight: 8,
     },
     templateimg: {
       marginTop: 10,
       height: 100,
-      width: 70,
+      width: "100%",
       borderRadius: 5,
     },
     templatetxt: {

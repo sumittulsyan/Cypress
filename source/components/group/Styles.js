@@ -1,8 +1,8 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     screenlayout: {
-      paddingLeft: 20,
-      paddingRight: 20,
+      paddingLeft: 15,
+      paddingRight: 15,
       marginTop: 40,
     },
     header: {
@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
       justifyContent: 'space-between',
     },
     circularcontainer: {
-      height: 50,
-      width: 50,
+      height: 36,
+      width: 36,
       backgroundColor: '#000',
       borderWidth: 0.5,
       borderColor: '#FFFFFF',
@@ -27,9 +27,11 @@ const styles = StyleSheet.create({
       borderRadius: 25,
     },
     headertxt: {
-      fontWeight: 'bold',
-      fontSize: 22,
-    },
+      fontWeight: "bold",
+      fontSize: 20,
+      color:"#22304A"
+
+  },
     secondheadertxt: {
       fontWeight: 'bold',
       fontSize: 18,
@@ -41,23 +43,25 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       paddingTop: 5,
       paddingBottom: 5,
-      marginRight: 8,
       backgroundColor: '#FFFFFF',
       borderRadius: 2,
     },
     phoneno: {
-      //flex:1,
-      borderColor: '#000000',
-      borderWidth: 1,
+      borderTopColor:"#AFB8C4",
+      borderLeftColor:"#E3EEF7",
+      borderRightColor:"#E3EEF7",
+      borderBottomColor:"#fff",
+      borderWidth: 1, 
       height: 40,
       flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: '#E3EEF7',
-      marginTop: 50,
+      marginTop: 16,
       marginVertical: 10,
       borderRadius: 10,
-    },
+      marginBottom:35
+  },
     searchIcon: {
       justifyContent: 'center',
       alignItems: 'center',
@@ -79,10 +83,11 @@ const styles = StyleSheet.create({
       // marginHorizontal:100
     },
     globaltxt: {
-      marginTop: 20,
+      marginTop: 40,
       marginBottom: 10,
-      fontSize: 18,
-      fontWeight: 'bold',
+      fontSize: 16,
+      fontWeight: "600",
+      color:"#22304A"
     },
   
     template: {
@@ -94,7 +99,7 @@ const styles = StyleSheet.create({
     },
     templateimg: {
       marginTop: 10,
-      height: 80,
+      height: 100,
       width: "100%",
       borderRadius: 5,
     },
@@ -103,9 +108,10 @@ const styles = StyleSheet.create({
     },
     TextStyle: {
       textAlign: 'center',
-      color: '#000',
+      color: '#A4A9B2',
       paddingHorizontal: 4,
-      fontSize: 10,
+      fontSize: 16,
+      fontWeight:"bold"
     },
   });
   export default styles;

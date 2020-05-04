@@ -1,22 +1,26 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     screenlayout: {
-      paddingLeft: 20,
-      paddingRight: 20,
+      paddingLeft: 15,
+      paddingRight: 15,
       marginTop: 40,
     },
     phoneno: {
-      //  flex:1,
-      borderColor: '#000000',
-      borderWidth: 1,
+      borderTopColor:"#AFB8C4",
+      borderLeftColor:"#E3EEF7",
+      borderRightColor:"#E3EEF7",
+      borderBottomColor:"#fff",
+      borderWidth: 1, 
       height: 40,
-       flexDirection: 'row',
+      flexDirection: 'row',
+      // justifyContent: 'center',
+      // alignItems: 'center',
       backgroundColor: '#E3EEF7',
-      marginTop: 20,
-      marginVertical: 5,
+      marginTop: 16,
+      marginVertical: 10,
       borderRadius: 10,
-      paddingHorizontal: 10,
-    },
+      marginBottom:12
+  },
     header: {
       flexDirection: 'row',
       flex: 1,
@@ -24,10 +28,11 @@ const styles = StyleSheet.create({
     },
     headertxt: {
       fontWeight: 'bold',
-      fontSize: 22,
+      fontSize: 20,
       paddingLeft: 5,
       // paddingBottom:5
       marginBottom: 5,
+      color:"#22304A"
     },
     secondheadertxt: {
       fontWeight: 'bold',
@@ -48,17 +53,21 @@ const styles = StyleSheet.create({
       color: '#000000',
     },
     findprogram: {
-      marginTop: 10,
+      marginTop: 8,
+    },
+    findprogramtxt:{
+      fontSize:15,
+      color:"#22304A"
     },
     template: {
-      width: 120,
+      width: "38%",
       justifyContent: 'center',
       marginRight: 8,
     },
     templateimg: {
       marginTop: 10,
       height: 100,
-      width: 110,
+      width: "100%",
       borderRadius: 5,
     },
     templatetxt: {

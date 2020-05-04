@@ -21,38 +21,38 @@ export default function HomeScreen(props) {
               <Icon
                 name="arrow-left"
                 size={20}
-                color="#000"
-                style={{padding: 10}}
+                color="#22304A"
+                style={{paddingRight: 10}}
               />
             </TouchableOpacity>
 
-            <Text style={{padding: 8, fontSize: 20, justifyContent: 'center'}}>
+            <Text style={{ fontSize: 20, justifyContent: 'center',color:"#22304A",fontWeight:"bold"}}>
               Quick Start
             </Text>
           </View>
           <View>
             <Text style={styles.text1}>Step 1/2</Text>
-            <Text style={styles.text2}> What is dificulty level </Text>
+            <Text style={styles.text2}> What is dificulty level?</Text>
           </View>
           <View style={{}}>
             <TouchableOpacity
               style={styles.SubmitButtonStyle}
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle}> CASUAL </Text>
+              <Text style={styles.TextStyle}> Casual </Text>
             </TouchableOpacity>
           </View>
           <View>
             <TouchableOpacity
               style={styles.SubmitButtonStyle1}
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle1}> MODERATE </Text>
+              <Text style={styles.TextStyle1}> Moderate </Text>
             </TouchableOpacity>
           </View>
           <View>
             <TouchableOpacity
               style={styles.SubmitButtonStyle2}
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle1}> INTENSE </Text>
+              <Text style={styles.TextStyle1}> Intense </Text>
             </TouchableOpacity>
           </View>
         </View>

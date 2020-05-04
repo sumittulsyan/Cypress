@@ -23,11 +23,9 @@ export class Group extends Component {
           </View>
           <View style={{flexDirection: 'row'}}>
             <View>
-              <Icon
-                name="bars"
-                size={20}
-                color="#000"
-                style={{paddingHorizontal: 5}}
+            <Image
+                style={{height: 16, width: 16}}
+                source = {require('../../assets/Icons/Alert.png')}
               />
             </View>
           </View>
@@ -37,12 +35,13 @@ export class Group extends Component {
           <TextInput style={styles.textinput} placeholder="Search"></TextInput>
         </View>
         <View>
-          <Text>Join a Group</Text>
+          <Text 
+                style={{fontSize: 16, color: '#22304A', fontWeight: 'bold',color:"#22304A", }} >Join a group</Text>
           <View style={{flexDirection: 'row'}}>
             <View style={styles.template}>
               <Image
                 style={styles.templateimg}
-                source={require('../../assets/arms3.jpeg')}
+                source={require('../../assets/group-promo/group-gym-promo_0.png')}
               />
               <View>
                 <TouchableOpacity
@@ -51,8 +50,8 @@ export class Group extends Component {
                   <Text style={styles.TextStyle}> Fit for life </Text>
                   <Icon
                     name="plus"
-                    size={8}
-                    color="#000"
+                    size={14}
+                    color="#A4A9B2"
                     style={{paddingTop: 2, paddingRight: 5}}
                   />
                 </TouchableOpacity>
@@ -61,7 +60,7 @@ export class Group extends Component {
             <View style={styles.template}>
               <Image
                 style={styles.templateimg}
-                source={require('../../assets/arms3.png')}
+                source={require('../../assets/group-promo-selfie/selfie.png')}
               />
               <View>
                 <TouchableOpacity
@@ -70,8 +69,8 @@ export class Group extends Component {
                   <Text style={styles.TextStyle}> Roar Club </Text>
                   <Icon
                     name="plus"
-                    size={8}
-                    color="#000"
+                    size={14}
+                    color="#A4A9B2"
                     style={{paddingTop: 2, paddingRight: 5}}
                   />
                 </TouchableOpacity>
@@ -80,7 +79,7 @@ export class Group extends Component {
             <View style={styles.template}>
               <Image
                 style={styles.templateimg}
-                source={require('../../assets/chest1.jpeg')}
+                source={require('../../assets/group-promo-1/group_promo-1.png')}
               />
               <View>
                 <TouchableOpacity
@@ -89,8 +88,8 @@ export class Group extends Component {
                   <Text style={styles.TextStyle}> New Zela... </Text>
                   <Icon
                     name="plus"
-                    size={8}
-                    color="#000"
+                    size={14}
+                    color="#A4A9B2"
                     style={{paddingTop: 2, paddingRight: 5}}
                   />
                 </TouchableOpacity>
@@ -103,32 +102,35 @@ export class Group extends Component {
         </View>
         <View
           style={{
-            height: 300,
+            height: 360,
             width: "100%",
             backgroundColor: '#FFFFFF',
             borderColor: '#FFF',
             borderWidth: 2,
             paddingLeft: 10,
+            shadowColor: '#000',
+    shadowOffset: {width: 0, height: 1},
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
           }}>
-          <View style={{flexDirection: 'row'}}>
-            <View>
+          <View style={{flexDirection: 'row',marginTop:15,alignContent:"center"}}>
+            
               <TouchableOpacity
                 style={styles.circularcontainer}></TouchableOpacity>
-            </View>
-            <View>
-              <View style={{paddingLeft: 10, paddingTop: 15}}>
-                <Text>User Name</Text>
+            
+            
+              <View style={{paddingLeft: 10,justifyContent:'center'}}>
+                <Text style={{fontSize:16,color:"#09152D"}}>User Name</Text>
               </View>
-            </View>
+            
           </View>
           <View>
             <Text
               style={{
                 marginVertical: 10,
-                paddingBottom: 5,
                 fontWeight: '400',
-                borderBottomWidth: 0.5,
-                borderBottomColor: '#000',
+                borderBottomWidth: 7,
+                fontSize:16,color:"#09152D"
               }}>
               Just completed my first workout with ever fit
             </Text>
@@ -137,62 +139,55 @@ export class Group extends Component {
             style={{
               flexDirection: 'row',
               justifyContent: 'space-around',
-              borderBottomWidth: 0.5,
-              borderBottomColor: '#000',
-              paddingBottom: 10,
+              borderTopColor:'#00000029',
+              borderTopWidth:1,
+              borderBottomWidth: 1,
+              borderBottomColor: '#00000029',
+              paddingVertical:18
             }}>
-            <View style={{flexDirection: 'row'}}>
-              <Icon
-                name="heart"
-                size={12}
-                color="#000"
-                style={{paddingTop: 2, paddingRight: 5}}
-              />
-              <Text>Like</Text>
+            <View style={{flexDirection: 'row' ,justifyContent:"center",alignContent:"center"}}>
+              <Image style={{height:14,width:14,paddingHorizontal:5}} source={require('../../assets/Icons/Heart.png')}/>
+              <Text style={{fontSize:16,paddingHorizontal:5,marginBottom:5,color:"#636B7A"}}>Like</Text>
             </View>
             <View style={{flexDirection: 'row'}}>
-              <Icon
-                name="comment-dots"
-                size={12}
-                color="#000"
-                style={{paddingTop: 2, paddingRight: 5}}
-              />
-              <Text>Comment</Text>
+            <Image style={{height:14,width:14,paddingHorizontal:5}} source={require('../../assets/Icons/Comment.png')}/>
+
+              <Text style={{fontSize:16,paddingHorizontal:5,paddingBottom:5,color:"#636B7A"}}>Comment</Text>
             </View>
           </View>
-          <View style={{flexDirection: 'row', marginTop: 8}}>
+          <View style={{flexDirection: 'row', marginTop: 10}}>
             <View>
               <TouchableOpacity
                 style={styles.circularcontainer1}></TouchableOpacity>
             </View>
             <View>
               <View style={{paddingLeft: 10, paddingTop: 5}}>
-                <Text>User Name</Text>
+                <Text style={{fontSize:16}}>User Name</Text>
               </View>
             </View>
           </View>
-          <View style={{flexDirection: 'row', marginTop: 8}}>
+          <View style={{flexDirection: 'row', marginTop: 30}}>
             <View>
               <TouchableOpacity
                 style={styles.circularcontainer1}></TouchableOpacity>
             </View>
             <View>
               <View style={{paddingLeft: 10, paddingTop: 5}}>
-                <Text>User Name</Text>
-                <Text style={{fontSize: 12}}>Great going boy</Text>
+                <Text style={{fontSize:16}}>User Name</Text>
+                <Text style={{fontSize: 16,color:"#A4A9B2"}}>Great going boy</Text>
               </View>
             </View>
           </View>
 
-          <View style={{flexDirection: 'row', marginTop: 8}}>
+          <View style={{flexDirection: 'row', marginTop: 20}}>
             <View>
               <TouchableOpacity
                 style={styles.circularcontainer1}></TouchableOpacity>
             </View>
             <View>
               <View style={{paddingLeft: 10, paddingTop: 5}}>
-                <Text>User Name</Text>
-                <Text style={{fontSize: 12}}>
+                <Text style={{fontSize:16}}>User Name</Text>
+                <Text style={{fontSize: 16,color:"#A4A9B2"}}>
                   oh.That sound like a challenge now.
                 </Text>
               </View>

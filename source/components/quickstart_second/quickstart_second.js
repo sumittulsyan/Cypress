@@ -11,7 +11,7 @@ import {
 import styles from './Styles';
 export default function QuickStartSecond(props) {
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1,backgroundColor:"#E3EEF7"}}>
       <View>
         <View style={styles.quickstart}>
           <TouchableOpacity
@@ -19,18 +19,18 @@ export default function QuickStartSecond(props) {
             <Icon
               name="arrow-left"
               size={20}
-              color="#000"
-              style={{padding: 10}}
+              color="#22304A"
+              style={{paddingRight: 10}}
             />
           </TouchableOpacity>
 
-          <Text style={{padding: 8, fontSize: 20, justifyContent: 'center'}}>
+          <Text style={{ fontSize: 20, justifyContent: 'center',color:"#22304A",fontWeight:"bold"}}>
             Quick Start
           </Text>
         </View>
         <View>
           <Text style={styles.text1}>Step 2/2</Text>
-          <Text style={styles.text2}> What is your target</Text>
+          <Text style={styles.text2}> What your target?</Text>
         </View>
         <View style={styles.MainContainer}>
           <TouchableOpacity
@@ -39,7 +39,7 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyle}> Lose Weight </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyle}
+            style={styles.SubmitButtonStyleRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyle}> Strength core </Text>
           </TouchableOpacity>
@@ -51,7 +51,7 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyleS}> Build Muscle </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyle}
+            style={styles.SubmitButtonStyleRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyle}> Tone Muscle </Text>
           </TouchableOpacity>
@@ -63,7 +63,7 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyle}> Improve Endurance </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyle}
+            style={styles.SubmitButtonStyleRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyle}> Stay Fit</Text>
           </TouchableOpacity>
@@ -75,7 +75,7 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyle}> Free </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyle}
+            style={styles.SubmitButtonStyleRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyle}> Target UpperBody </Text>
           </TouchableOpacity>
@@ -87,7 +87,7 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyle}> All About Yoga </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyleShade}
+            style={styles.SubmitButtonStyleShadeRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyleS}> Bodyweight </Text>
           </TouchableOpacity>
@@ -99,13 +99,14 @@ export default function QuickStartSecond(props) {
             <Text style={styles.TextStyle}> Beginner Guide </Text>
           </TouchableOpacity>
           <TouchableOpacity
-            style={styles.SubmitButtonStyle}
+            style={styles.SubmitButtonStyleRight}
             activeOpacity={0.5}>
             <Text style={styles.TextStyle}> Cardio </Text>
           </TouchableOpacity>
         </View>
+        
       </View>
-      <View style={{flex: 1, justifyContent: 'flex-end', paddingBottom: 40}}>
+      <View style={{flex: 1, justifyContent: 'flex-end', paddingBottom: 35}}>
         <TouchableOpacity
           style={styles.button}
           onPress={() => props.navigation.navigate('BottomTabNavigator')}>

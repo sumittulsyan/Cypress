@@ -3,8 +3,9 @@ const styles = StyleSheet.create({
     quickstart: {
         color: "#0000FF",
         marginTop: 20,
-        marginLeft: 20,
+        marginLeft: 15,
         flexDirection: "row",
+        alignItems:"center"
 
         // justifyContent: "center"
     }, button: {
@@ -25,41 +26,62 @@ const styles = StyleSheet.create({
     },
     text1: {
         fontWeight: "bold",
-        fontSize: 24,
+        fontSize: 31,
         marginTop: 20,
-        marginLeft: 40,
-        color: "#000080"
+        marginLeft: 30,
+        color: "#22304A",
     },
     text2: {
-        fontSize: 18,
-        marginLeft: 36,
+        fontSize: 20,
+        marginLeft: 30,
         marginTop: 16,
-        //paddingTop:20
+        marginBottom:20,
+        color:"#22304A",
+        letterSpacing:.5
     },
     MainContainer: {
         flexDirection:"row",
+        justifyContent:"flex-start"
     },
 
     SubmitButtonStyle: {
-
-        // marginTop:10,
-        paddingTop: 5,
-        paddingBottom: 10,
-        marginTop: 10,
-        marginLeft: 40,
-        // marginRight: 40,
+        paddingVertical:10,
+        marginTop: 12,
+        marginLeft: 30,
         backgroundColor: '#E3EEF7',
         borderRadius: 20,
         borderWidth: 1,
-        borderColor: '#000'
+        borderColor: '#798291',
+    },
+    SubmitButtonStyleRight:{
+        paddingVertical:10,
+        marginTop: 12,
+        marginLeft: 10,
+        backgroundColor: '#E3EEF7',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291',
     },
     SubmitButtonStyleShade: {
 
         // marginTop:10,
-        paddingTop: 5,
+        paddingTop: 10,
         paddingBottom: 10,
-        marginTop: 10,
-        marginLeft: 40,
+        marginTop: 12,
+        marginLeft: 30,
+        // marginRight: 40,
+        backgroundColor: '#22304A',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#000'
+    },
+    SubmitButtonStyleShadeRight: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 12,
+        marginLeft: 10,
         // marginRight: 40,
         backgroundColor: '#22304A',
         borderRadius: 20,
@@ -70,13 +92,15 @@ const styles = StyleSheet.create({
 
     TextStyle: {
         textAlign:"center",
-        color: '#000',
-        paddingHorizontal:5
+        color: '#798291',
+        paddingHorizontal:20,
+        fontSize:16
     },
     TextStyleS: {
         textAlign:"center",
         color: '#FFF',
-        paddingHorizontal:5
+        paddingHorizontal:20,
+        fontSize:16
     },
     TextStyle1:{
         paddingLeft:20
