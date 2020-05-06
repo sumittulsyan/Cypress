@@ -55,7 +55,20 @@ const styles = StyleSheet.create({
           backgroundColor: '#22304A',
         borderRadius: 20,
         borderWidth: 1,
-        borderColor: '#000'
+        borderColor: '#798291'
+    },
+    SubmitButtonStylePress: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 90,
+        marginLeft: 30,
+        marginRight: 30,
+          backgroundColor: '#E3EEF7',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291'
     },
     SubmitButtonStyle1: {
 
@@ -66,6 +79,19 @@ const styles = StyleSheet.create({
         marginLeft: 30,
         marginRight: 30,
         backgroundColor: '#E3EEF7',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291'
+    },
+    SubmitButtonStyle1Press: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 20,
+        marginLeft: 30,
+        marginRight: 30,
+        backgroundColor: '#22304A',
         borderRadius: 20,
         borderWidth: 1,
         borderColor: '#798291'
@@ -83,12 +109,31 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#798291'
     },
+    SubmitButtonStyle2Press: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 20,
+        marginLeft: 30,
+        marginRight: 30,
+        backgroundColor: '#22304A',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291'
+    },
 
     TextStyle: {
          color: "#FFF",
          paddingLeft:20,
          fontSize:16
     },
+    TextStylePress: {
+        color: "#798291",
+        paddingLeft:20,
+        fontSize:16
+   },
+   
     TextStyle1:{
         paddingLeft:20,
         color:"#798291",

@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   reform: {
-    paddingTop: 80,
+    paddingTop: 40,
     alignSelf: 'stretch',
     flex: 1,
   },
@@ -55,10 +55,12 @@ const styles = StyleSheet.create({
   },
   subheader: {
     alignSelf: 'center',
+    color:"#22304A"
   },
   subheader1: {
     alignSelf: 'center',
     paddingBottom: 80,
+    color:"#22304A"
   },
   searchIcon: {
     justifyContent: 'center',
@@ -74,22 +76,35 @@ const styles = StyleSheet.create({
     backgroundColor: '#F18F49',
   },
   phoneno: {
-    borderTopColor: '#AFB8C4',
-    borderLeftColor: '#E3EEF7',
-    borderRightColor: '#E3EEF7',
-    borderBottomColor: '#fff',
-    borderWidth: 1,
-    elevation: 4,
+    // borderTopColor: '#AFB8C4',
+    // borderLeftColor: '#E3EEF7',
+    // borderRightColor: '#000',
+    // borderBottomColor: '#fff',
+    // borderWidth: 1,
+    // elevation: 4,
+    // borderColor: '#AFB8C4',
+    // height: 45,
+    // flexDirection: 'row',
+    // justifyContent: 'center',
+    // alignItems: 'center',
+    // backgroundColor: '#E3EEF7',
+    // marginTop: 20,
+    // marginLeft: 30,
+    // marginRight: 30,
+    // marginBottom: 29,
     borderColor: '#AFB8C4',
+    borderWidth: 0.5,
     height: 45,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#E3EEF7',
-    marginTop: 20,
+    // marginBottom: 180,
     marginLeft: 30,
     marginRight: 30,
     marginBottom: 29,
+    borderBottomColor: '#FFF',
+    borderRightColor: '#FFF',
   },
   password: {
     borderColor: '#AFB8C4',
@@ -145,6 +160,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignSelf: 'stretch',
     color: '#000',
+    fontWeight:"normal"
   },
   otpverify: {
     marginLeft: 10,
@@ -190,7 +206,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E3EEF7',
     elevation: 4,
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    justifyContent: 'space-around',
     alignItems:"center",
     // paddingHorizontal: 10,
     width: '45%',
@@ -203,8 +219,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   icon: {
-    padding: 5,
-    paddingHorizontal: 20,
+    paddingHorizontal: 5,
   },
   fotter: {
     justifyContent: 'flex-end',

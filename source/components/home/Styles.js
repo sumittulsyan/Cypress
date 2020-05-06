@@ -118,6 +118,7 @@ const styles = StyleSheet.create({
         borderRadius:5
     },
     templatetxt:{
+        paddingVertical:5,
         textAlign:"center",
         
     }

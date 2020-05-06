@@ -27,7 +27,7 @@ export default class Regform extends Component {
       <SafeAreaView style={{flex: 1,backgroundColor:"#E3EEF7",}}>
         <View style={styles.reform}>
           <Text style={styles.header}>EVER FIT</Text>
-          <Text style={styles.subheader}>Your Peronal trainer</Text>
+          <Text style={styles.subheader}>Your Personal trainer</Text>
           <Text style={styles.subheader1}>
             is now at the ease of your fingertip
           </Text>
@@ -36,7 +36,8 @@ export default class Regform extends Component {
               style={this.state.pressStatus ? styles.toggletxtinactive: styles.toggletxtactive}
               onPress={() =>
                 this.setState({method: false, pressStatus: false})
-              }>
+              }
+              >
               <Text
                 style={
                   this.state.pressStatus ? styles.textt : styles.textPress 
@@ -60,7 +61,7 @@ export default class Regform extends Component {
           </View>
           <View style={styles.phoneno}>
             <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/Phone.png')} />
-            <TextInput style={styles.textinput} placeholder="+91-8486629876" />
+            <TextInput style={styles.textinput} placeholder="+919401268513" placeholderTextColor="#22304A"/>
            
             <Icon
               style={styles.searchIconTick}
@@ -72,9 +73,9 @@ export default class Regform extends Component {
           </View>
           {this.state.method == true ? (
             <View style={styles.password}>
-                          <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10,color:"#fff"}} source={require('../../assets/Icons/Lock.png')} />
+                          <Image style={{height:16,width:16, justifyContent:"center",alignItems:"center",marginHorizontal:10}} source={require('../../assets/Icons/Lock.png')} />
 
-              <TextInput style={styles.textinput} placeholder="Password" />
+              <TextInput style={styles.textinput} placeholder="Password" secureTextEntry={true}/>
             </View>
           ) : (
             <View>
@@ -95,6 +96,7 @@ export default class Regform extends Component {
                   <TextInput
                     style={styles.textinput}
                     placeholder="Set Password"
+                    secureTextEntry={true}
                   />
                 </View>
               </View>
@@ -105,6 +107,7 @@ export default class Regform extends Component {
                   <TextInput
                     style={styles.textinput}
                     placeholder="Repeat Password"
+                    secureTextEntry={true}
                   />
                 </View>
               </View>
@@ -126,11 +129,11 @@ export default class Regform extends Component {
               <Text style={styles.footer}>Or sign up with</Text>
             )}
             <View style={styles.footericon}>
-            <Image style={{height:12,width:16, justifyContent:"center",alignItems:"center",}} source={require('../../assets/Icons/mail.png')}  resizeMode="contain"/>
+            <Image style={{height:12,width:16,alignItems:"center",}} source={require('../../assets/Icons/mail.png')}  resizeMode="contain"/>
 
-            <Image style={{height:12,width:16, justifyContent:"center",alignItems:"center",}} source={require('../../assets/Icons/twitter.png')} resizeMode="contain"/>
+            <Image style={{height:12,width:16,alignItems:"center",}} source={require('../../assets/Icons/twitter.png')} resizeMode="contain"/>
 
-            <Image style={{height:16,width:20, justifyContent:"center",alignItems:"center"}} source={require('../../assets/Icons/facebook.png')}resizeMode="contain" />
+            <Image style={{height:16,width:20, alignItems:"center"}} source={require('../../assets/Icons/facebook.png')}resizeMode="contain" />
 
             </View>
           </View>

@@ -10,14 +10,23 @@ import {
 } from 'react-native';
 import Regform from '../registration/reg';
 import styles from './Styles';
-export default function HomeScreen(props) {
+export default class HomeScreen extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      method: true,
+      pressStatus: true,
+      intense: true
+    };
+  }
+  render(){
   return (
     <SafeAreaView style={{flex: 1,backgroundColor:"#E3EEF7"}}>
       <View style={{flex: 1}}>
         <View>
           <View style={styles.quickstart}>
             <TouchableOpacity
-              onPress={() => props.navigation.navigate('Regform')}>
+              onPress={() => this.props.navigation.navigate('Regform')}>
               <Icon
                 name="arrow-left"
                 size={20}
@@ -36,23 +45,33 @@ export default function HomeScreen(props) {
           </View>
           <View style={{}}>
             <TouchableOpacity
-              style={styles.SubmitButtonStyle}
+            style={this.state.pressStatus ? styles.SubmitButtonStyle: styles.SubmitButtonStylePress}
+            onPress={() =>
+              this.state.pressStatus == true ? this.setState({pressStatus:false}): this.setState({pressStatus:true,method:true,intense:true})
+            }
+            
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle}> Casual </Text>
+              <Text style={this.state.pressStatus?  styles.TextStyle: styles.TextStylePress}> Casual </Text>
             </TouchableOpacity>
           </View>
           <View>
             <TouchableOpacity
-              style={styles.SubmitButtonStyle1}
+            style={this.state.method ? styles.SubmitButtonStyle1: styles.SubmitButtonStyle1Press}
+            onPress={() =>
+              this.state.method == true ? this.setState({ method:false, pressStatus:false,intense:true }): this.setState({ method:true,})
+            }
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle1}> Moderate </Text>
+              <Text style={this.state.method?  styles.TextStyle1: styles.TextStyle}> Moderate </Text>
             </TouchableOpacity>
           </View>
           <View>
             <TouchableOpacity
-              style={styles.SubmitButtonStyle2}
+            style={this.state.intense ? styles.SubmitButtonStyle2: styles.SubmitButtonStyle2Press}
+            onPress={() =>
+              this.state.intense == true ? this.setState({ intense:false, pressStatus:false,method:true  }): this.setState({ intense:true, })
+            }
               activeOpacity={0.5}>
-              <Text style={styles.TextStyle1}> Intense </Text>
+              <Text style={this.state.intense?  styles.TextStyle1: styles.TextStyle}> Intense </Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -60,12 +79,12 @@ export default function HomeScreen(props) {
           <TouchableOpacity
             style={styles.button}
             onPress={() => {
-              props.navigation.navigate('QuickStartSecond');
+              this.props.navigation.navigate('QuickStartSecond');
             }}>
             <Text style={styles.btntext}>Next</Text>
           </TouchableOpacity>
         </View>
       </View>
     </SafeAreaView>
-  );
+  );}
 }

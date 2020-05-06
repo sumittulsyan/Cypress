@@ -49,7 +49,7 @@ const styles =StyleSheet.create({
         borderRadius: 60 / 2,
         overflow: 'hidden',
         borderWidth: 3,
-        borderColor: 'white',
+        borderColor: '#E3EEF7',
       },
       usertext: {
         marginTop: 10,

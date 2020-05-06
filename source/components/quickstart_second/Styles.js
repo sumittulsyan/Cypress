@@ -62,6 +62,15 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#798291',
     },
+    SubmitButtonStyleRightPress:{
+        paddingVertical:10,
+        marginTop: 12,
+        marginLeft: 10,
+        backgroundColor: '#22304A',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#000',
+    },
     SubmitButtonStyleShade: {
 
         // marginTop:10,
@@ -75,6 +84,19 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#000'
     },
+    SubmitButtonStyleShadePress: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 12,
+        marginLeft: 30,
+        // marginRight: 40,
+        backgroundColor: '#E3EEF7',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291'
+    },
     SubmitButtonStyleShadeRight: {
 
         // marginTop:10,
@@ -87,6 +109,19 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         borderWidth: 1,
         borderColor: '#000'
+    },
+    SubmitButtonStyleShadeRightPress: {
+
+        // marginTop:10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        marginTop: 12,
+        marginLeft: 10,
+        // marginRight: 40,
+        backgroundColor: '#E3EEF7',
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#798291'
     },
     
 

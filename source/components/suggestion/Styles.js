@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
       borderRadius: 60 / 2,
       overflow: 'hidden',
       borderWidth: 3,
-      borderColor: 'white',
+      borderColor: '#E3EEF7',
     },
     userrow: {
       marginTop: 20,
@@ -39,22 +39,23 @@ const styles = StyleSheet.create({
       marginLeft: 5,
     },
     userheading:{
-    fontSize:18,
+    fontSize:16,
     fontWeight:"500",
     color:"#22304A"
     },
     usersubheading:{
-      fontSize:16,
+      fontSize:14,
       fontWeight:"normal",
       color:"#8391A1"
     },
-    followcontainer: {},
+    followcontainer: {
+    },
     SubmitButtonStyle: {
       flexDirection: 'row',
       paddingTop: 6,
       paddingBottom: 6,
       marginTop: 10,
-      paddingHorizontal:15,
+      paddingHorizontal:10,
       backgroundColor: 'white',
       borderRadius: 20,
       borderWidth: 1,
@@ -70,7 +71,7 @@ const styles = StyleSheet.create({
       textAlign: 'center',
       color: '#09152D',
       paddingHorizontal: 2,
-      fontWeight: 'bold',
+      fontWeight: '400',
     },
     template: {
         flex:1,

@@ -71,7 +71,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
@@ -93,7 +93,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
@@ -115,7 +115,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
@@ -137,7 +137,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
@@ -159,7 +159,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
@@ -181,7 +181,7 @@ export class Suggestion extends Component {
                   />
                 </View>
                 <View style={styles.usertext}>
-                  <Text style={styles.userheading}>User Name</Text>
+                  <Text style={styles.userheading}>Username</Text>
                   <Text style={styles.usersubheading}>Strength Trainer</Text>
                 </View>
               </View>
