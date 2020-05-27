@@ -66,7 +66,7 @@ export class Suggestion extends Component {
                 <View style={styles.imagecontainer}>
                   <Image
                     style={styles.container}
-                    resizeMode="contain"
+                    resizeMode="cover"
                     source={require('../../assets/profile3/profile2x.png')}
                   />
                 </View>
@@ -87,8 +87,8 @@ export class Suggestion extends Component {
               <View style={{flexDirection: 'row'}}>
                 <View style={styles.imagecontainer}>
                   <Image
-                    style={styles.container}
-                    resizeMode="stretch"
+                    style={{flex:1}}
+                    resizeMode="cover"
                     source={require('../../assets/profile2/profile2x.png')}
                   />
                 </View>
@@ -110,7 +110,7 @@ export class Suggestion extends Component {
                 <View style={styles.imagecontainer}>
                   <Image
                     style={styles.container}
-                    resizeMode="stretch"
+                    resizeMode="cover"
                     source={require('../../assets/profile1/profile2x.png')}
                   />
                 </View>
@@ -132,7 +132,7 @@ export class Suggestion extends Component {
                 <View style={styles.imagecontainer}>
                   <Image
                     style={styles.container}
-                    resizeMode="stretch"
+                    resizeMode="cover"
                     source={require('../../assets/profile2/profile2x.png')}
                   />
                 </View>
@@ -154,7 +154,7 @@ export class Suggestion extends Component {
                 <View style={styles.imagecontainer}>
                   <Image
                     style={styles.container}
-                    resizeMode="stretch"
+                    resizeMode="cover"
                     source={require('../../assets/profile3/profile2x.png')}
                   />
                 </View>
@@ -176,7 +176,7 @@ export class Suggestion extends Component {
                 <View style={styles.imagecontainer}>
                   <Image
                     style={styles.container}
-                    resizeMode="contain"
+                    resizeMode="cover"
                     source={require('../../assets/profile1/profile2x.png')}
                   />
                 </View>
@@ -202,7 +202,7 @@ export class Suggestion extends Component {
                   <View style={styles.imagecontainer}>
                     <Image
                       style={{width:"100%"}}
-                      resizeMode="stretch"
+                      resizeMode="cover"
                       source={require('../../assets/profile1/profile2x.png')}
                     />
                   </View>
@@ -254,7 +254,7 @@ export class Suggestion extends Component {
                   <View style={styles.imagecontainer}>
                     <Image
                       style={styles.container}
-                      resizeMode="stretch"
+                      resizeMode="cover"
                       source={require('../../assets/profile2/profile2x.png')}
                     />
                   </View>
@@ -306,7 +306,7 @@ export class Suggestion extends Component {
                   <View style={styles.imagecontainer}>
                     <Image
                       style={styles.container}
-                      resizeMode="stretch"
+                      resizeMode="cover"
                       source={require('../../assets/profile3/profile2x.png')}
                     />
                   </View>

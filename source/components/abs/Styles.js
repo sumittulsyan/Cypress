@@ -60,7 +60,7 @@ const styles=StyleSheet.create({
     findprogram: {
       marginHorizontal:12,
       marginTop: 15,
-      marginBottom:16
+      marginBottom:12
     },
     findprogramtxt:{
       fontSize:16,
@@ -83,9 +83,34 @@ const styles=StyleSheet.create({
       height: 100,
       width: "100%",
       borderRadius: 5,
+      justifyContent:"center",
+      alignItems:"center"
     },
     templatetxt: {
       textAlign: 'center',
     },
+    videoPlayer:{
+      height:36,
+      width:36,
+      borderRadius:36/2,
+      backgroundColor:"white",
+      justifyContent:"center",
+      alignItems:"center"
+    },
+    triangle:{
+      width: 0,
+    height: 0,
+    backgroundColor: 'transparent',
+    borderStyle: 'solid',
+    borderLeftWidth: 7,
+    borderRightWidth: 7,
+    borderBottomWidth: 14,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderBottomColor: 'black',
+    transform: [
+      {rotate: '90deg'}
+    ]
+    }
   });
   export default styles;

@@ -50,7 +50,7 @@ export default class Programs extends Component {
               <Icon style={styles.searchIcon} name="search" size={16} />
               <TextInput style={styles.textinput} placeholder="Search" />
             </View>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{flexDirection: 'row',borderBottomColor:"#9EA2AC",borderBottomWidth:.5}}>
               <View style={styles.template}>
                 <Image
                   style={styles.templateimg}
@@ -60,7 +60,7 @@ export default class Programs extends Component {
 
               <View style={styles.findprogram}>
                 <Text style={{fontSize: 20, fontWeight: 'bold',color:"#22304A"}}>Abs</Text>
-                <View style={{}}>
+                <View style={{marginTop:6}}>
                   <View>
                     <Text style={styles.findprogramtxt}>4 Weeks</Text>
                   </View>
@@ -76,7 +76,7 @@ export default class Programs extends Component {
                 </View>
               </View>
             </View>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{flexDirection: 'row',borderBottomColor:"#9EA2AC",borderBottomWidth:.5}}>
               <View style={styles.template}>
                 <Image
                   style={styles.templateimg}
@@ -86,7 +86,7 @@ export default class Programs extends Component {
 
               <View style={styles.findprogram}>
                 <Text style={{fontSize: 20, fontWeight: 'bold',color:"#22304A"}}>Arms</Text>
-                <View style={{}}>
+                <View style={{marginTop:6}}>
                   <View>
                     <Text style={styles.findprogramtxt}>4 Weeks</Text>
                   </View>
@@ -102,7 +102,7 @@ export default class Programs extends Component {
                 </View>
               </View>
             </View>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{flexDirection: 'row',borderBottomColor:"#9EA2AC",borderBottomWidth:.5}}>
               <View style={styles.template}>
                 <Image
                   style={styles.templateimg}
@@ -112,7 +112,7 @@ export default class Programs extends Component {
 
               <View style={styles.findprogram}>
                 <Text style={{fontSize: 20, fontWeight: 'bold',color:"#22304A"}}>Legs</Text>
-                <View style={{}}>
+                <View style={{marginTop:6}}>
                   <View>
                     <Text style={styles.findprogramtxt}>4 Weeks</Text>
                   </View>
@@ -128,7 +128,7 @@ export default class Programs extends Component {
                 </View>
               </View>
             </View>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{flexDirection: 'row',borderBottomColor:"#9EA2AC",borderBottomWidth:.5}}>
               <View style={styles.template}>
                 <Image
                   style={styles.templateimg}
@@ -138,7 +138,7 @@ export default class Programs extends Component {
 
               <View style={styles.findprogram}>
                 <Text style={{fontSize: 20, fontWeight: 'bold',color:"#22304A"}}>Chest</Text>
-                <View style={{}}>
+                <View style={{marginTop:6}}>
                   <View>
                     <Text style={styles.findprogramtxt}>4 Weeks</Text>
                   </View>
@@ -154,7 +154,7 @@ export default class Programs extends Component {
                 </View>
               </View>
             </View>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{flexDirection: 'row',borderBottomColor:"#9EA2AC",borderBottomWidth:.5}}>
               <View style={styles.template}>
                 <Image
                   style={styles.templateimg}
@@ -164,7 +164,7 @@ export default class Programs extends Component {
 
               <View style={styles.findprogram}>
                 <Text style={{fontSize: 20, fontWeight: 'bold',color:"#22304A"}}>Legs</Text>
-                <View style={{}}>
+                <View style={{marginTop:6}}>
                   <View>
                     <Text style={styles.findprogramtxt}>4 Weeks</Text>
                   </View>

@@ -73,10 +73,10 @@ export class Trainer extends Component {
                   <Text
                     style={{
                       paddingLeft: 15,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Available{' '}
@@ -97,10 +97,10 @@ export class Trainer extends Component {
                   <Text
                     style={{
                       paddingLeft: 15,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Directory{' '}
@@ -120,10 +120,10 @@ export class Trainer extends Component {
                   <Text
                     style={{
                       paddingLeft: 15,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Updates{' '}

@@ -47,9 +47,8 @@ const styles = StyleSheet.create({
       borderRadius: 2,
     },
     phoneno: {
-      borderTopColor:"#AFB8C4",
-      borderLeftColor:"#E3EEF7",
-      borderRightColor:"#E3EEF7",
+      borderColor:"#AFB8C4",
+      borderRightColor:"#fff",
       borderBottomColor:"#fff",
       borderWidth: 1, 
       height: 40,
@@ -95,8 +94,14 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
       width: "100%",
       justifyContent: 'center',
-      marginRight: 8,
+      marginRight: 15,
     },
+    templatelast: {
+      flex:1,
+    flexDirection: 'column',
+    width: "100%",
+    justifyContent: 'center',
+  },
     templateimg: {
       marginTop: 10,
       height: 100,

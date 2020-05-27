@@ -68,10 +68,10 @@ export class Workout extends Component {
                   <Text
                     style={{
                       paddingLeft: 12,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Featured{' '}
@@ -91,10 +91,10 @@ export class Workout extends Component {
                   <Text
                     style={{
                       paddingLeft: 12,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Quick Start{' '}
@@ -114,10 +114,10 @@ export class Workout extends Component {
                   <Text
                     style={{
                       paddingLeft: 12,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Collection{' '}
@@ -137,10 +137,10 @@ export class Workout extends Component {
                   <Text
                     style={{
                       paddingLeft: 12,
-                      fontSize: 14,
+                      fontSize: 16,
                       color: '#22304A',
                       letterSpacing: 0.5,
-                      fontWeight: 'normal',
+                      fontWeight: '300',
                     }}>
                     {' '}
                     Exercise Libarary{' '}

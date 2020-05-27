@@ -30,9 +30,8 @@ const styles = StyleSheet.create({
 
     },
     phoneno: {
-        borderTopColor:"#AFB8C4",
-        borderLeftColor:"#E3EEF7",
-        borderRightColor:"#E3EEF7",
+        borderColor:"#AFB8C4",
+        borderRightColor:"#fff",
         borderBottomColor:"#fff",
         borderWidth: 1, 
         height: 40,
@@ -64,7 +63,9 @@ const styles = StyleSheet.create({
         // width:320,
         borderRadius:2,
         width:"100%",
-        height:190
+        height:190,
+        justifyContent:"center",
+        alignItems:"center"
         // marginHorizontal:100
     },
     findprogram:{
@@ -120,8 +121,46 @@ const styles = StyleSheet.create({
     templatetxt:{
         paddingVertical:5,
         textAlign:"center",
+        fontSize:15
         
-    }
+    },videoPlayer:{
+        height:36,
+        width:36,
+        borderRadius:36/2,
+        backgroundColor:"white",
+        justifyContent:"center",
+        alignItems:"center"
+      },
+      triangle:{
+        width: 0,
+      height: 0,
+      backgroundColor: 'transparent',
+      borderStyle: 'solid',
+      borderLeftWidth: 7,
+      borderRightWidth: 7,
+      borderBottomWidth: 14,
+      borderLeftColor: 'transparent',
+      borderRightColor: 'transparent',
+      borderBottomColor: 'black',
+      transform: [
+        {rotate: '90deg'}
+      ]
+      },
+      circleempty:{
+          height:10,
+          width:10,
+          borderRadius:5,
+          borderWidth:2,
+          borderColor:"white",
+          
+      },
+      circlefilled:{
+        height:10,
+        width:10,
+        borderRadius:5,
+        backgroundColor:"white",
+        marginHorizontal:4
+      }
 
 
 });

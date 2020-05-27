@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
     userheading:{
     fontSize:16,
     fontWeight:"500",
-    color:"#22304A"
+    color:"#22304A",
+    paddingBottom:4
     },
     usersubheading:{
       fontSize:14,
@@ -129,5 +130,8 @@ const styles = StyleSheet.create({
       paddingBottom: 4,
       borderBottomWidth: 2,
     },
+    container:{
+      flex:1
+    }
   });
   export default styles; 

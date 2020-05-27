@@ -57,7 +57,7 @@ export class Program extends Component {
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}
                   onPress={() => this.props.navigation.navigate('Programs')}>
-                  <Text style={{paddingLeft: 12,fontSize:14,color:"#22304A",letterSpacing:.5,fontWeight:"normal"}}> Featured </Text>
+                  <Text style={{paddingLeft: 12,fontSize:16,color:"#22304A",letterSpacing:.5,fontWeight:"300"}}> Featured </Text>
                   <Icon
                     name="chevron-right"
                     size={12}
@@ -70,7 +70,7 @@ export class Program extends Component {
                 <TouchableOpacity
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}>
-                  <Text style={{paddingLeft: 12,fontSize:14,color:"#22304A",letterSpacing:.5,fontWeight:"normal"}}> Quick Start </Text>
+                  <Text style={{paddingLeft: 12,fontSize:16,color:"#22304A",letterSpacing:.5,fontWeight:"300"}}> Quick Start </Text>
                   <Icon
                     name="chevron-right"
                     size={12}
@@ -83,7 +83,7 @@ export class Program extends Component {
                 <TouchableOpacity
                   style={styles.SubmitButtonStyle1}
                   activeOpacity={0.5}>
-                  <Text style={{paddingLeft: 12,fontSize:14,color:"#22304A",letterSpacing:.5,fontWeight:"normal"}}> Purchased </Text>
+                  <Text style={{paddingLeft: 12,fontSize:16,color:"#22304A",letterSpacing:.5,fontWeight:"300"}}> Purchased </Text>
                   <Icon
                     name="chevron-right"
                     size={12}

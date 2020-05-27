@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
     },
     findprogramtxt:{
       fontSize:15,
-      color:"#22304A"
+      color:"#22304A",
+      fontWeight:"400"
     },
     template: {
       width: "38%",
@@ -66,7 +67,7 @@ const styles = StyleSheet.create({
     },
     templateimg: {
       marginTop: 10,
-      height: 100,
+      height: 110,
       width: "100%",
       borderRadius: 5,
     },

@@ -57,9 +57,8 @@ const styles = StyleSheet.create({
   phoneno: {
     marginRight: 15,
     marginLeft: 15,
-    borderTopColor: '#AFB8C4',
-    borderLeftColor: '#E3EEF7',
-    borderRightColor: '#E3EEF7',
+    borderColor: '#AFB8C4',
+    borderRightColor: '#fff',
     borderBottomColor: '#fff',
     borderWidth: 1,
     height: 40,
