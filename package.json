@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "./node_modules/.bin/cypress run",
+    "test": ".//node_modules//.bin//cypress run --record --key 38ed3804-d373-4084-bdaa-ff732450fd3f",
     "lint": "eslint ."
   },
   "dependencies": {
