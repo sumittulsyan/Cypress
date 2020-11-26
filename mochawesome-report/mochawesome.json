@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-11-04T12:30:05.974Z",
-    "end": "2020-11-04T12:30:22.475Z",
-    "duration": 16501,
+    "start": "2020-11-26T12:19:19.924Z",
+    "end": "2020-11-26T12:19:39.565Z",
+    "duration": 19641,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "6dedcd1e-0894-4e03-a714-82ec10dc4318",
+      "uuid": "8119dd05-be96-4629-86a1-399d6eaa67b8",
       "title": "",
       "fullFile": "cypress/integration/examples/taskman.spec.js",
       "file": "cypress/integration/examples/taskman.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "30ea918d-8b75-46a9-ac6f-ae06925dd64d",
+          "uuid": "c5f97db8-1387-4305-9cd0-40d199f9e7bd",
           "title": "My First Test",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Does not do much!",
               "fullTitle": "My First Test Does not do much!",
               "timedOut": null,
-              "duration": 14707,
+              "duration": 17601,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://taskman.geekydev.com/');\ncy.get('[type=\"text\"]').clear().type('admin@taskman.com');\ncy.get('[type=\"password\"]').clear().type('password');\ncy.get('.custom-button').click(); // cy.get('.heading-admin-container > img').click()\n// cy.get('.logout-container > :nth-child(2)').click()\ncy.get(':nth-child(4) > .sidebar-card-heading').click();\ncy.get('[data-row-key=\"1\"] > :nth-child(1) > a').click();\ncy.get(':nth-child(4) > .sidebar-card-heading').click();\ncy.get('[data-row-key=\"1\"] > :nth-child(7) > .ant-btn > span').click();\ncy.get(':nth-child(5) > .sidebar-card-heading').click();\ncy.get('[placeholder=\"Name\"]').type('Sumit');\ncy.get('[type=\"email\"]').type('admin00@gmail.com');\ncy.get('[placeholder=\"Phone Number\"]').type(9999999999);\ncy.get('[type=\"password\"]').type(123456);\ncy.get('.custom-button').click();\ncy.get('.heading-admin-container > img').click();\ncy.get('.logout-container > :nth-child(2)').click();",
               "err": {},
-              "uuid": "5d0f082e-3ddd-4a7b-beaa-9e22c8a24fb1",
-              "parentUUID": "30ea918d-8b75-46a9-ac6f-ae06925dd64d",
+              "uuid": "21b84b61-ac17-44df-b37d-791624cb16dc",
+              "parentUUID": "c5f97db8-1387-4305-9cd0-40d199f9e7bd",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5d0f082e-3ddd-4a7b-beaa-9e22c8a24fb1"
+            "21b84b61-ac17-44df-b37d-791624cb16dc"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14707,
+          "duration": 17601,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
