@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 1,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2020-11-26T12:19:19.924Z",
-    "end": "2020-11-26T12:19:39.565Z",
-    "duration": 19641,
+    "failures": 1,
+    "start": "2020-11-26T15:21:37.422Z",
+    "end": "2020-11-26T15:21:49.526Z",
+    "duration": 12104,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8119dd05-be96-4629-86a1-399d6eaa67b8",
+      "uuid": "c9b9d93d-f994-4e54-b1fb-fb7de54874f4",
       "title": "",
       "fullFile": "cypress/integration/examples/taskman.spec.js",
       "file": "cypress/integration/examples/taskman.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c5f97db8-1387-4305-9cd0-40d199f9e7bd",
+          "uuid": "aca65cce-a16a-45eb-84e9-35f40a30a57a",
           "title": "My First Test",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,33 @@
               "title": "Does not do much!",
               "fullTitle": "My First Test Does not do much!",
               "timedOut": null,
-              "duration": 17601,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
+              "duration": 9524,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
               "code": "cy.visit('http://taskman.geekydev.com/');\ncy.get('[type=\"text\"]').clear().type('admin@taskman.com');\ncy.get('[type=\"password\"]').clear().type('password');\ncy.get('.custom-button').click(); // cy.get('.heading-admin-container > img').click()\n// cy.get('.logout-container > :nth-child(2)').click()\ncy.get(':nth-child(4) > .sidebar-card-heading').click();\ncy.get('[data-row-key=\"1\"] > :nth-child(1) > a').click();\ncy.get(':nth-child(4) > .sidebar-card-heading').click();\ncy.get('[data-row-key=\"1\"] > :nth-child(7) > .ant-btn > span').click();\ncy.get(':nth-child(5) > .sidebar-card-heading').click();\ncy.get('[placeholder=\"Name\"]').type('Sumit');\ncy.get('[type=\"email\"]').type('admin00@gmail.com');\ncy.get('[placeholder=\"Phone Number\"]').type(9999999999);\ncy.get('[type=\"password\"]').type(123456);\ncy.get('.custom-button').click();\ncy.get('.heading-admin-container > img').click();\ncy.get('.logout-container > :nth-child(2)').click();",
-              "err": {},
-              "uuid": "21b84b61-ac17-44df-b37d-791624cb16dc",
-              "parentUUID": "c5f97db8-1387-4305-9cd0-40d199f9e7bd",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find element: `:nth-child(4) > .sidebar-card-heading`, but never found it.",
+                "estack": "AssertionError: Timed out retrying: Expected to find element: `:nth-child(4) > .sidebar-card-heading`, but never found it.\n    at Context.eval (http://taskman.geekydev.com/__cypress/tests?p=cypress/integration/examples/taskman.spec.js:108:8)",
+                "diff": null
+              },
+              "uuid": "0dfe9b35-44d4-4eb4-8f3e-b6f37c128bdf",
+              "parentUUID": "aca65cce-a16a-45eb-84e9-35f40a30a57a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "21b84b61-ac17-44df-b37d-791624cb16dc"
+          "passes": [],
+          "failures": [
+            "0dfe9b35-44d4-4eb4-8f3e-b6f37c128bdf"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17601,
+          "duration": 9524,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
